@@ -1,0 +1,96 @@
+.buttontlf{
+    background-color:#134B70;
+    padding:12px;
+    color:white;
+    width:55%;
+    border:1px solid black;
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.buttontlf:hover{
+    background-color:#7FA1C3;
+
+    }
+
+
+
+    /* Основные стили для кнопки */
+.button {
+    background-color: #4CAF50; /* Зеленый цвет */
+    color: white; /* Белый текст */
+    padding: 10px 20px; /* Отступы */
+    border: none; /* Без границы */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Курсор в виде указателя */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s; /* Плавный переход */
+}
+
+.button:hover {
+    background-color: #45a049; /* Цвет при наведении */
+}
+
+/* Стили для модального окна */
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.75); /* Полупрозрачный фон */
+}
+
+.ReactModal__Content {
+
+    top: 50%;
+    left: 50%;
+    transform:translate(60%, 10%) ; /* Центрирование окна */
+    background: white; /* Белый фон */
+    border-radius: 10px; /* Закругленные углы */
+    padding: 20px; /* Отступы внутри окна */
+    width: 600px; /* Ширина модального окна */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Тень под окном */
+}
+
+/* Заголовок модального окна */
+h2 {
+    margin-top: 0; /* Убираем верхний отступ */
+    color: #333; /* Темный цвет текста */
+}
+
+/* Стили для формы */
+form {
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение элементов */
+}
+
+/* Стили для меток и полей ввода */
+label {
+    margin-bottom: 10px; /* Отступы между элементами */
+    font-weight: bold; /* Жирный шрифт для меток */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px; /* Отступы внутри полей */
+    border: 1px solid #ccc; /* Светлая граница */
+    border-radius: 5px; /* Закругленные углы */
+    margin-top: 5px; /* Отступ сверху */
+}
+
+/* Стили для кнопок внутри формы */
+button[type="submit"],
+button[type="button"] {
+    background-color: #007BFF; /* Синий цвет для кнопок */
+    color: white; /* Белый текст */
+    padding: 10px; /* Отступы */
+    border: none; /* Без границы */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Курсор в виде указателя */
+    margin-top: 10px; /* Отступ сверху */
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #0056b3; /* Темнее при наведении */
+}
+
+

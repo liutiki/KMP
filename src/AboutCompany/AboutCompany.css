@@ -1,0 +1,82 @@
+.AboutPosition{
+display:flex;
+flex-direction: row;
+margin-top: 20%;
+
+}
+
+
+.PositionTwo{
+
+background-color: #134B70;
+display:flex;
+flex-direction: column;
+
+}
+
+
+.PortPhoto{
+    width:500px;  
+ 
+}
+
+.Text-position{
+    display:flex;
+justify-content: center;
+margin-left: 2%;
+margin-right: 2%;
+
+}
+.textAbout{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+   font-size:18px;
+   font-weight:400;
+   line-height: 32px;
+   color:white;
+}
+
+.btn-position-about{
+margin-top: 5%;
+display:flex;
+justify-content: center;
+
+}
+
+
+.btnAbout{
+    font-family: "Manrope", sans-serif;
+    background-color: transparent;
+    color:#7FA1C3;
+    font-size:18px;
+    border:none;
+    font-weight: 650;
+    text-decoration: none;
+}
+.btnAbout:hover{
+    color:#6482AD;
+}
+
+.kmp-icon{
+    width:9%;
+}
+
+.AboutTop{
+    font-family: "Manrope", sans-serif;
+    font-size: 45px;
+    font-weight:600;
+    line-height: 32px;
+    color:white;
+}
+
+.topPosition{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display:flex;
+    justify-content: center;
+}
+
+.photo-position{
+    display:flex;
+    flex-direction: column;
+}

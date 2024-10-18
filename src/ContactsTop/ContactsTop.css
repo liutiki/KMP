@@ -1,0 +1,39 @@
+.topInfo{
+background-color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.tlf{
+    display:flex;
+    flex-direction: row;
+    margin-right: 25px;
+    color:#758694d8;
+    
+}
+
+.tlf:hover{
+    text-decoration: underline;
+    color:#64727d;
+}
+
+.tel{
+    font-size: 31px;
+    margin-right:35px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+}
+
+.KMP{
+    font-size: 31px;
+    color:#323b41;
+    font-family: "Manrope", sans-serif;
+    font-weight:300;
+}
+
+.logo{
+    background-color: transparent;
+    width:60px;
+}

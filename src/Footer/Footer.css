@@ -1,0 +1,74 @@
+.footer{
+    background-color: #134B70;
+}
+
+.footerTwo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+.relax-massage{
+    list-style: none;
+    color:rgb(255, 255, 255);
+    margin-top: 50px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.service{
+       color:#222831;
+       font-family: "Manrope", sans-serif;
+       font-size: 21px;
+       font-weight: 600;
+}
+
+.copyright{
+    display:flex;
+    justify-content: center;
+    font-size:15px;
+}
+
+.Vensil{
+    width:30px;
+}
+
+.telegram{
+    width:40px;
+    margin-top: 5px;;
+}
+
+@media all and (max-width: 500px) {
+
+  
+    .footerTwo{
+        display:flex;
+        flex-direction: column; 
+     }
+
+     .relax-massage{
+        margin-top: 20px;
+        font-size: 15px;
+        }
+    .service{
+           color:#222831;
+           font-family: "Manrope", sans-serif;
+           font-size: 19px;     
+    } 
+
+    .Vensil{
+        width:30px;
+    }
+
+    
+    .telegram{
+        width:30px;
+    }
+
+    .copyright{
+        font-size:11px;
+    }
+    
+}
