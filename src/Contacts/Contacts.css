@@ -1,0 +1,48 @@
+.contactTop{
+    width: 100%; 
+    height:40vh;
+    object-fit:cover; 
+    opacity:0.6;
+}
+
+.adress-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.adress-position{
+    display:flex;
+    flex-direction: column; 
+    line-height: 21px; 
+
+}
+
+.text-adress{
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+    color:#686D76;
+}
+
+.text-tel{
+    font-size: 17px;
+    font-family: "Manrope", sans-serif;
+    color:#686D76;
+}
+
+.contacts-last{
+    font-size: 27px;
+    font-weight: 300;
+    font-family: "Manrope", sans-serif;
+    color:#686D76;
+}
+
+.text-mail{
+    font-size: 17px;
+    font-family: "Manrope", sans-serif;
+    color:#686D76;
+}

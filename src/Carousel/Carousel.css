@@ -1,17 +1,16 @@
 .carousel-image {
     width: 100%; 
-    height: 450px; 
+    height: 550px; 
     object-fit: cover;
-    opacity:0.7;
-      }
+       }
 
   .magic{
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 600;
     color:rgb(11, 11, 11);
     text-shadow: 13px 13px 14px rgba(13, 13, 13, 1); /* Тень для текста, чтобы он был лучше виден на фоне */
     font-family: "Raleway", sans-serif;
-    opacity: 1;
+  
 }
    
    
@@ -20,8 +19,8 @@
     position: absolute; /* Позиционируем текст поверх изображения */
     bottom: 20px; /* Расстояние от низа */
     color: rgb(248, 240, 240); /* Цвет текста */
-    top:95px; /* Расстояние от низа */
-    left: 50%; /* Центрируем текст по горизонтали */
+    top:20px; /* Расстояние от низа */
+    left: 20%; /* Центрируем текст по горизонтали */
    
    }
 

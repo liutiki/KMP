@@ -10,10 +10,17 @@ function ContactsTop(){
     return(<div className="topInfo">
         <div>
         <Link to="/" className="KMP">
-                <img className="logo" src={logo} alt="logo" />
-                Калининградское Морское Пароходство
+                <div className="logo-position">
+                  <img className="logo" src={logo} alt="logo" />
+                <div className="name-position">
+                <p>Калининградское</p>
+                <p>Морское Пароходство</p>
+                </div>
+                </div>
+                            
             </Link>
-        </div>
+            </div>
+
       <div className="tlf">
       <p className="tel">+7 4012 99 49 89</p>
 
