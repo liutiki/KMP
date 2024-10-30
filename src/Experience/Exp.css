@@ -24,22 +24,24 @@
 
 .photoOneShip{
     width:60px;
+    margin-right: 20px;
 }
 
 .effect{
     font-family: "Manrope", sans-serif;
     color: white;
-    font-size: 17px;
+    font-size: 21px;
+    font-weight: 100;
 }
 .number{
     font-size: 63px;
     font-weight: 600;
     font-family: "Manrope", sans-serif;
-
+    margin-right: 20px;
 }
 
 .vertical-line{
-    width: 0.1cm;
+    width: 1px;
     height: 21vh; 
     background-color: black; 
    }

@@ -1,6 +1,6 @@
 import logo from './logo.png';
 import telegram from './telegram.png';
-import whatsapp from './whatsapp.png';
+import mail from './mail.png';
 import './ContactsTop.css';
 import { Link } from 'react-router-dom';
 
@@ -15,11 +15,15 @@ function ContactsTop(){
             </Link>
         </div>
       <div className="tlf">
-        <p className="tel">+7 4012 99 49 89</p>
-        <p><img src={whatsapp} alt="whatsapp" width="50px"/></p>
-        <p><a href="https://web.telegram.org/k/#@kdsc39" target="_blank" rel="noopener noreferrer">
-        <img className="telegram" src={telegram}width="50px" alt ="icon" /></a></p>
-      </div>
+      <p className="tel">+7 4012 99 49 89</p>
+
+    <p className="info">
+    <img className="mail" src={mail} alt="logo-kmp" />
+    <a className="ahref-mail"href="mailto:info@kdsc.ru">info@kdsc.ru</a></p>
+
+    <p><a href="https://web.telegram.org/k/#-2322689377" target="_blank" rel="noopener noreferrer">
+    <img className="telegram" src={telegram} alt ="icon" /></a></p>
+    </div>
     </div>
 
     )

@@ -1,0 +1,19 @@
+.btn-position{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.btn-download{
+    background-color: #DBD3D3;
+    font-size: 22px;
+    border:none;
+    color:black;
+    font-family: "Manrope", sans-serif;
+    width:420px;
+   padding:5px;
+   }
+
+.btn-download:hover{
+    background-color: #3a6d8ca4;
+}

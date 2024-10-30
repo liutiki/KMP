@@ -1,5 +1,7 @@
 
 import AboutCompany from "../AboutCompany/AboutCompany";
+import Advantages from "../Advantages/Advantages";
+import AdvantagesGsap from "../AdvantagesGSAP/AdvantagesGsap";
 import CarouselTop from "../Carousel/CarouselTop";
 import ContactsTop from "../ContactsTop/ContactsTop";
 import Flot from "../Flot/Flot";
@@ -17,6 +19,8 @@ function Home(){
       <NameLogo />
    
      <AboutCompany />
+     <AdvantagesGsap />
+     <Advantages />
       <Flot/>
       <Footer />
     </div>

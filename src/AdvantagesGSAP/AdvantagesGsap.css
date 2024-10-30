@@ -1,0 +1,10 @@
+.letter {
+ 
+    margin-top:10%;
+    display:inline-block; /* Позволяет анимировать каждую букву отдельно */
+    color:#B7B7B7;
+    font-family: "Manrope", sans-serif;
+    font-size:48px;
+    font-weight: 700;
+        
+}

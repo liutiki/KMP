@@ -1,39 +1,74 @@
 .topInfo{
-background-color: white;
+    background-color: white;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 
 .tlf{
     display:flex;
     flex-direction: row;
-    margin-right: 25px;
-    color:#758694d8;
-    
-}
-
-.tlf:hover{
-    text-decoration: underline;
-    color:#64727d;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .tel{
-    font-size: 31px;
-    margin-right:35px;
+    color:#758694d8;
+    font-size: 19px;
     font-family: "Manrope", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.tel:hover{
+    color:#201E43;
 }
 
 .KMP{
     font-size: 31px;
-    color:#323b41;
+    color:#201E43;
     font-family: "Manrope", sans-serif;
-    font-weight:300;
+    font-weight:500;
+    text-decoration: none;
 }
 
 .logo{
     background-color: transparent;
     width:60px;
+}
+
+.mail{
+    width:21px;
+    height:auto;
+   margin-right: 5px;
+}
+
+.info{
+    text-decoration: none;
+    color:#758694d8;
+}
+
+.info:hover{
+    color:#201E43;
+}
+
+.ahref-mail{
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 19px;
+    color:#758694d8;
+}
+
+.ahref-mail:hover{
+    color:#201E43;
+}
+
+
+.telegram{
+    width: 50px; 
+    margin-right: 20px;
+    margin-left: 15px;
+    height: auto;
 }

@@ -15,7 +15,7 @@ function CarouselTop() {
           alt="First slide" 
         /> 
         <Carousel.Caption>
-          <p className="magic carousel-caption">Морские грузоперевозки</p>
+        <p className="magic carousel-caption">Морские грузоперевозки</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
@@ -25,7 +25,7 @@ function CarouselTop() {
           alt="Second slide" 
         /> 
         <Carousel.Caption>
-          <p className="magic carousel-caption">Морские грузоперевозки</p>
+        <p className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>

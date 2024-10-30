@@ -21,7 +21,10 @@ function Vacancies (){
     return(
         <div>
 <ContactsTop />
-<p>Вакансии</p>
+<div className="Top-position">
+<p className="Vacancy-Top" >Вакансии</p>
+</div>
+
 
 <Download />
 
@@ -44,10 +47,10 @@ function Vacancies (){
 
 <div className="vac">
     <img src={map} className="picture" alt="vessel"/>
-    <p>Судовой повар</p>
+    <p>Матросы 1,2 класса</p>
     <p>Тип судна: Генеральные грузы</p>
     <p>Дата посадки: 30/10/2024</p>
-    <p>Зарплата : 130 000 рублей</p>
+    <p>Зарплата : 110 000 рублей</p>
 </div>
 
 </div>

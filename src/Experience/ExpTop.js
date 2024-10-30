@@ -14,7 +14,7 @@ function ExpTop(){
     
         <div className="reliability">
         <p className="number">56</p> 
-        <p className="effect">клиентов, каждый из которых ценит наш подход и качество работы</p>
+        <p className="effect">клиентов, каждый из которых ценит наш подход и качество работы.</p>
         <div className="vertical-line" />
         </div>
 
