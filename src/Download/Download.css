@@ -5,15 +5,16 @@
 }
 
 .btn-download{
-    background-color: #DBD3D3;
+    background-color: #134B70;
     font-size: 22px;
     border:none;
-    color:black;
+    color:white;
     font-family: "Manrope", sans-serif;
     width:420px;
    padding:5px;
    }
 
 .btn-download:hover{
-    background-color: #3a6d8ca4;
+    background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
+    background-color:rgb(46, 35, 171) /*this your primary color*/
 }

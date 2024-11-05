@@ -17,17 +17,20 @@ body{
 
 .Top-position{
     display:flex;
-    justify-content: flex-start;
-    margin-left:20px;
-    margin-bottom: 10px;
-    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    line-height: 5px;
 }
 
 .Vacancy-Top{
     font-family: "Manrope", sans-serif;
-    font-size: 37px;
-    font-weight: 400;
-    color:rgb(65, 63, 63);   
+    font-size: 47px;
+    font-weight: 600;
+    color:#134B70;   
+ 
 }
 
 

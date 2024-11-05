@@ -10,7 +10,8 @@
 }
 
 .buttontlf:hover{
-    background-color:#7FA1C3;
+    background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
+    background-color:rgb(46, 35, 171) /*this your primary color*/
 
     }
 

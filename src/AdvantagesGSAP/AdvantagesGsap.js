@@ -1,53 +1,61 @@
-import React, { useEffect, useRef } from 'react'; 
-import { gsap } from 'gsap'; 
-import './AdvantagesGsap.css'; 
+import React, { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
+import './AdvantagesGsap.css';
 
-function AdvantagesGsap() { 
-    const textRef = useRef(null); 
+function AdvantagesGsap() {
+    const textRef = useRef(null);
 
-    useEffect(() => { 
-        const words = textRef.current.querySelectorAll('.word'); 
+    useEffect(() => {
+        const words = textRef.current.querySelectorAll('.letter');
 
-        const animateWords = () => { 
-            words.forEach((word, index) => { 
-                gsap.fromTo(word,  
-                    { opacity: 0, y: -20 },  
-                    {  
-                        opacity: 1,  
-                        y: 0,  
-                        duration: 0.5,  
-                        delay: index * 0.5, // Увеличиваем задержку для каждого слова
-                        onComplete: () => { 
-                            // Устанавливаем таймер на 3 секунды после последнего слова 
-                            if (index === words.length - 1) { 
-                                setTimeout(() => { 
-                                    // Запускаем анимацию снова 
-                                    animateWords(); 
-                                }, 3000); 
-                            } 
-                        } 
-                    } 
-                ); 
-            }); 
-        }; 
+        // Функция для анимации слов
+        const animateWords = () => {
+            gsap.fromTo(words, 
+                { opacity: 0 }, 
+                { 
+                    
+                    opacity: 1, 
+                    delay:0.5,
+                    duration: 1.2,
+                    ease: 'power2.out', // Более плавная функция easing
+                    stagger: 0.2, // Задержка между анимациями слов
+                    onComplete: () => {
+                        // Устанавливаем таймер на 3 секунды после появления
+                        setTimeout(() => {
+                            gsap.to(words, {
+                               
+                                opacity: 0,
+                                duration: 1.2,
+                                ease: 'power2.out', // Более плавная функция easing
+                                onComplete: () => {
+                                    // Запускаем анимацию заново
+                                    animateWords();
+                                }
+                            });
+                        }, 3000);
+                    }
+                }
+            );
+        };
 
-        animateWords(); // Запускаем анимацию 
+        animateWords(); // Запускаем анимацию
 
-    }, []); 
+    }, []);
 
-    return ( 
-        <div> 
-            <div className="adv-top"> 
-                <p ref={textRef}> 
-                    <span className="word">Наши</span> <br /> {/* Первая строка */}
-                    <span className="word">преимущества</span> {/* Вторая строка */}
-                </p> 
-            </div> 
-        </div> 
-    ); 
-} 
+    return (
+        <div>
+            <div className="adv-top">
+                <p ref={textRef}>
+                    <span className="letter">Наши</span>
+                    <span className="letter">Преимущества</span>
+                </p>
+            </div>
+        </div>
+    );
+}
 
 export default AdvantagesGsap;
+
 
 
 

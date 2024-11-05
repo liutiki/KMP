@@ -1,10 +1,11 @@
 import { useEffect } from "react";
 import ContactsTop from "../ContactsTop/ContactsTop";
 import Footer from "../Footer/Footer";
-import map from './Svet.jpg';
+import map from './Yant.jpg';
 import './Vacancies.css';
 import { gsap } from 'gsap';
 import Download from "../Download/Download";
+import blueWave from "./blueWaveOne.png";
 
 
 function Vacancies (){
@@ -23,6 +24,7 @@ function Vacancies (){
 <ContactsTop />
 <div className="Top-position">
 <p className="Vacancy-Top" >Вакансии</p>
+<img src={blueWave}  width="250px" alt="bluewave"/>
 </div>
 
 

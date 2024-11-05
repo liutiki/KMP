@@ -1,10 +1,7 @@
 .letter {
- 
-    margin-top:10%;
-    display:inline-block; /* Позволяет анимировать каждую букву отдельно */
-    color:#B7B7B7;
-    font-family: "Manrope", sans-serif;
-    font-size:48px;
-    font-weight: 700;
-        
+    font-size: 3rem; /* Увеличьте размер шрифта для большей выразительности */
+    margin: 0 15px; /* Настройте отступы между словами */
+    color: #858282; /* Цвет текста */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
 }
+
