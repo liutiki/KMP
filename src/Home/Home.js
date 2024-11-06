@@ -14,8 +14,9 @@ import Custombar from "../Navbar/Navbar";
 function Home(){
     return(<div>
         <ContactsTop />
+      
       <CarouselTop />
-      <Custombar />
+      <Custombar />  
       <NameLogo />
    
      <AboutCompany />

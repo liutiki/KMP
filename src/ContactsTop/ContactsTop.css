@@ -86,3 +86,17 @@
     margin-left: 15px;
     height: auto;
 }
+
+
+@media all and (max-width: 500px){
+ 
+    .tel{
+        font-size: 13px;
+       }
+
+       .KMP{
+        font-size: 17px;
+        font-weight:800;
+        }
+
+}
