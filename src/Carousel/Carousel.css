@@ -24,3 +24,24 @@
    
    }
 
+
+   @media all and (max-width: 500px){
+    .magic{
+      font-size: 28px;
+      font-weight: 600;
+      color:rgb(11, 11, 11);
+      text-shadow: 13px 13px 14px rgba(13, 13, 13, 1); /* Тень для текста, чтобы он был лучше виден на фоне */
+      font-family: "Raleway", sans-serif;
+   
+  }
+
+  
+  .carousel-caption {
+    position: absolute; /* Позиционируем текст поверх изображения */
+    bottom: 20px; /* Расстояние от низа */
+    color: rgb(248, 240, 240); /* Цвет текста */
+    top:20px; /* Расстояние от низа */
+    left: 5%; /* Центрируем текст по горизонтали */
+   }
+   }
+

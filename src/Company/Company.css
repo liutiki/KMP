@@ -98,6 +98,7 @@ margin-left: 10%;
     font-weight: 600;
     font-family: "Manrope", sans-serif;
     color:#181f3c; 
+ 
 }
 
 .text-general{
@@ -107,6 +108,92 @@ margin-left: 10%;
     line-height: 25px;
     font-family: "Manrope", sans-serif;
     color:rgb(33, 44, 62); 
+ 
 }
 
+
+
+@media all and (max-width: 500px){
+ 
+    .vesselPosition-Top{
+          flex-direction: column;   
+    }
+    
+    .vessel{
+        width:400px;
+            }
+
+            
+.servicePosition{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+ 
+
+.Service{
+    font-family: "Manrope", sans-serif;
+    margin-top: 5%;
+    font-size: 22px;
+    margin: 0 11px; /* Настройте отступы между словами */
+   }
+
+.docsPosition{
+margin-top: 1%;
+margin-left: 2%;
+}
+
+.docs{
+    margin-top: 2%;
+    font-size: 22px;
+    margin: 0 15px; /* Настройте отступы между словами */
+    }
+
+.container-service{
+    flex-direction: column;
+  }
+
+.container-block{
+    background-color: rgb(240, 248, 255);
+    max-width: 90%;
+    max-height: 40vh;
+   }
+
+
+.top-service-block{
+    font-size: 14px;   
+}
+
+
+.textCompanyPosition{
+    max-width: 430px;
+    margin-left: 5%;
+}
+
+.textCompany{
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight:100;
+    color:#05123c;
+}
+
+.numberOne{
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    color:#181f3c;
+}
+
+.General-top{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.text-general{
+    margin-top: 20%;
+    font-size: 18px;
+    line-height: 25px;
+   }
+
+}
 
