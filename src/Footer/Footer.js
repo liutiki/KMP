@@ -23,9 +23,8 @@ const Footer =() => {
 
             <ul className="relax-massage">
                 <li className="footer-rest">Мы есть в telegram</li>
-                <a href="https://web.telegram.org/k/#@kdsc39" target="_blank" rel="noopener noreferrer">
-            <img className="telegram" src={telegram} alt ="icon" />
-        </a>
+                <a href="https://web.telegram.org/k/#-2322689377" target="_blank" rel="noopener noreferrer">
+                <img className="telegram" src={telegram} alt ="icon" /></a>
                
             </ul>
                           </div> 

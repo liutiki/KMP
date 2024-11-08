@@ -13,21 +13,45 @@
    }
    
 
-.servicePosition{
-    margin-top: 5%;
-    margin-left: 10%;
+.Service-position{
+ margin-left: 10%;   
 }
- 
+
+.transport-position{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.transport{
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+    font-family: "Manrope", sans-serif;
+    color:#424242; 
+    list-style: none;
+}
+
+.transportTwo{
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 56px;
+    font-family: "Manrope", sans-serif;
+    color:#424242; 
+    list-style: none;
+}
+
 
 .Service{
     font-family: "Manrope", sans-serif;
     margin-top: 5%;
-    font-size: 32px;
-    margin: 0 15px; /* Настройте отступы между словами */
-    color:#05123c;
-    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    font-size: 62px;
+    color: #A6AEBF;
     font-family: "Manrope", sans-serif;
-    font-weight: 800;
+    font-weight: 500;
+    list-style: none;
 }
 
 .docsPosition{
@@ -40,14 +64,18 @@ margin-left: 10%;
     margin-top: 5%;
     font-size: 32px;
     margin: 0 15px; /* Настройте отступы между словами */
-    color:#05123c;
+    color:#424242;
     text-transform: uppercase; /* Преобразование текста в верхний регистр */
     font-family: "Manrope", sans-serif;
     font-weight: 800;
 }
 
-.container-service{
+.ship-cruise{
+    width:50px;
+    margin-top: 5%;
+}
 
+.container-service{
     display:flex;
     flex-direction: row;
     justify-content:space-between;
@@ -56,17 +84,19 @@ margin-left: 10%;
 
 
 .container-block{
-    background-color: rgb(240, 248, 255);
+    background:linear-gradient(rgb(237, 245, 241),transparent);
+    background-color: rgba(171, 185, 223, 0.367);/*this your primary color*/
     margin:3%;
-    height:45vh;
-    max-width: 30%;
+    height:55vh;
+    max-width: 40%;
     list-style: none;
     border-radius: 20px;
+    flex-wrap: wrap;
 }
 
 .container-block:hover{
-    background:linear-gradient(rgb(240, 255, 248),transparent);
-    background-color: rgba(136, 156, 210, 0.59)/*this your primary color*/
+    background:linear-gradient(rgb(87, 144, 236),transparent);
+    background-color: rgba(89, 128, 234, 0.367)/*this your primary color*/
 }
 
 .top-service-block{
@@ -94,21 +124,22 @@ margin-left: 10%;
 }
 
 .General-top{
+    margin-top: 5%;
     font-size: 27px;
     font-weight: 600;
     font-family: "Manrope", sans-serif;
     color:#181f3c; 
- 
 }
 
 .text-general{
-    margin-top: 20%;
+    max-width: 90%;
+    max-height: 30%;
+    margin-top: 14%;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     font-family: "Manrope", sans-serif;
-    color:rgb(33, 44, 62); 
- 
+    color:#424242; 
 }
 
 
@@ -120,18 +151,34 @@ margin-left: 10%;
     }
     
     .vessel{
-        width:400px;
+        width:350px;
             }
 
             
 .servicePosition{
     margin-top: 5%;
     margin-left: 10%;
+    list-style: none;
 }
  
+.transport{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    list-style: none;
+}
+
+.transportTwo{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px; 
+  list-style: none;
+}
+
+
+
 
 .Service{
-    font-family: "Manrope", sans-serif;
     margin-top: 5%;
     font-size: 22px;
     margin: 0 11px; /* Настройте отступы между словами */
@@ -144,8 +191,8 @@ margin-left: 2%;
 
 .docs{
     margin-top: 2%;
-    font-size: 22px;
-    margin: 0 15px; /* Настройте отступы между словами */
+    font-size: 19px;
+    margin-left: 5%;
     }
 
 .container-service{
@@ -153,9 +200,8 @@ margin-left: 2%;
   }
 
 .container-block{
-    background-color: rgb(240, 248, 255);
-    max-width: 90%;
-    max-height: 40vh;
+    max-width: 80%;
+    max-height: 45vh;
    }
 
 
@@ -165,24 +211,18 @@ margin-left: 2%;
 
 
 .textCompanyPosition{
-    max-width: 430px;
+    max-width: 350px;
     margin-left: 5%;
 }
 
 .textCompany{
-    font-family: "Manrope", sans-serif;
-    font-size: 24px;
-    line-height: 48px;
-    font-weight:100;
-    color:#05123c;
-}
+    font-size: 21px;
+    line-height: 27px;
+    }
 
 .numberOne{
     font-size: 27px;
-    font-weight: 600;
-    font-family: "Manrope", sans-serif;
-    color:#181f3c;
-}
+    }
 
 .General-top{
     font-size: 19px;
@@ -192,8 +232,14 @@ margin-left: 2%;
 .text-general{
     margin-top: 20%;
     font-size: 18px;
-    line-height: 25px;
-   }
+    line-height: 31px;
+    max-width: 450px;
+    }
+
+   .ship-cruise{
+    margin-top: 10%;
+    width:40px;
+}
 
 }
 

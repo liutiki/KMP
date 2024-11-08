@@ -26,10 +26,10 @@ function Custombar() {
               <Offcanvas.Body>
                 <Nav className="nav justify-content-end flex-grow-1 pe-3">
                 <Nav.Link as={Link} to="/Company">О компании</Nav.Link>
-                <Nav.Link as={Link} to="/Service">Тарифы</Nav.Link>
-                <Nav.Link as={Link} to="/Contacts">Услуги</Nav.Link> 
-                <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
+                <Nav.Link as={Link} to="/Tarif">Тарифы</Nav.Link>
+                <Nav.Link as={Link} to="/Service">Услуги</Nav.Link> 
                 <Nav.Link as={Link} to="/Vacancies">Вакансии</Nav.Link>
+                <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
                 </Nav>
                 
               </Offcanvas.Body>

@@ -1,16 +1,16 @@
 import ContactsTop from "../ContactsTop/ContactsTop";
 import Custombar from "../Navbar/Navbar";
 
-function Service(){
+function Tarif(){
     return(<div>
 
         <ContactsTop />
         <Custombar />  
-        <p>Услуги</p>
+        <p>ТАРИФЫ</p>
     </div>
 
     )
   
 }
 
-export default Service;
+export default Tarif;

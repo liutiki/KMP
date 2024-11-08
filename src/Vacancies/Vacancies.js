@@ -6,6 +6,7 @@ import './Vacancies.css';
 import { gsap } from 'gsap';
 import Download from "../Download/Download";
 import blueWave from "./blueWaveOne.png";
+import Custombar from "../Navbar/Navbar";
 
 
 function Vacancies (){
@@ -22,6 +23,7 @@ function Vacancies (){
     return(
         <div>
 <ContactsTop />
+<Custombar />  
 <div className="Top-position">
 <p className="Vacancy-Top" >Вакансии</p>
 <img src={blueWave}  width="250px" alt="bluewave"/>
@@ -32,7 +34,9 @@ function Vacancies (){
 
 <div className="vacancies-position">
     <div className="vac">
+    <div className="picture-position-vacancy">
     <img className="picture" src={map} alt="vessel"/>
+    </div>
     <p>Судовой повар</p>
     <p>Тип судна: Генеральные грузы</p>
     <p>Дата посадки: 30/10/2024</p>
@@ -40,7 +44,9 @@ function Vacancies (){
 </div>
 
 <div className="vac">
-    <img src={map} className="picture" alt="vessel"/>
+    <div className="picture-position-vacancy">
+    <img src={map} className="picture" alt="vessel"/>     
+    </div>
     <p>2 механик</p>
     <p>Тип судна: Генеральные грузы</p>
     <p>Дата посадки: 30/10/2024</p>
@@ -48,12 +54,14 @@ function Vacancies (){
 </div>
 
 <div className="vac">
-    <img src={map} className="picture" alt="vessel"/>
+<div className="picture-position-vacancy">
+    <img src={map} className="picture" alt="vessel"/>     
+    </div>
     <p>Матросы 1,2 класса</p>
     <p>Тип судна: Генеральные грузы</p>
     <p>Дата посадки: 30/10/2024</p>
-    <p>Зарплата : 110 000 рублей</p>
-</div>
+    <p>Зарплата : 110 000 рублей</p>     
+  </div>
 
 </div>
 

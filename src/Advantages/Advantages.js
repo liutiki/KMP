@@ -6,7 +6,7 @@ import logoTwo from './kmp-logo-two.jpg';
 function Advantages() {
     return(
         <div>
-<div>
+<div className="effectOne-position">
 <p className="effectOne">Эффективно справляемся с задачами клиентов</p>
 </div>
 

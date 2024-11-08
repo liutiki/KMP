@@ -1,9 +1,14 @@
 .letter {
     margin-top: 5%;
-    font-size: 3rem; /* Увеличьте размер шрифта для большей выразительности */
+    font-size: 5rem; /* Увеличьте размер шрифта для большей выразительности */
     margin: 0 15px; /* Настройте отступы между словами */
-    color: #858282; /* Цвет текста */
-    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    color: #A6AEBF; /* Цвет текста */
+    
     font-family: "Manrope", sans-serif;
+    font-weight: 500;
 }
 
+
+.adv-top{
+    margin-top: 7%;
+}

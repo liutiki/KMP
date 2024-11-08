@@ -2,11 +2,13 @@ import ContactsTop from "../ContactsTop/ContactsTop";
 import PhotoTop from './PhotoTop.jpg';
 import './Contacts.css';
 import Footer from "../Footer/Footer";
+import Custombar from "../Navbar/Navbar";
+
 
 function Contacts(){
     return(<div>
-        <ContactsTop />
-        
+              <ContactsTop />
+              <Custombar />  
          <img className="contactTop"src={PhotoTop} alt="contactsTop"/>
 
          <div className="adress-container"> 

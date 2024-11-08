@@ -3,10 +3,17 @@ import Footer from "../Footer/Footer";
 import vessel from './Containers.jpg';
 import './Company.css';
 import DownloadDocs from "../DownloadDocs/DownloadDocs";
+import ship from './cruiseShip.png';
+import carton from './сarton.png';
+import shipTwo from './shipTwo.png';
+import Custombar from "../Navbar/Navbar";
+
+
 
 function Company(){
     return(<div>
          <ContactsTop />
+         <Custombar />  
 
 <div className="vesselPosition-Top">
 <div className="vesselPosition">
@@ -16,7 +23,7 @@ function Company(){
 <div className="textCompanyPosition">
 <p className="textCompany"><span className="numberOne"> В 2022</span>  году Компания начала свою деятельность с фрахта двух надежных параходов, 
 которые способны осуществлять перевозку различных видов грузов из Калининграда в Санк-Петербург.
-Каждый из судов оборудован , что позволяет гарантировать безопасность и своевременность доставки.
+Каждый из судов оборудован необходимой техникой, что позволяет гарантировать безопасность и своевременность доставки.
     </p>
 </div>
 
@@ -29,34 +36,45 @@ function Company(){
 
 
 
-<div className="servicePosition">
-    <p className="Service">Услуги</p>
-</div>
+
+    
+    <ul className="Service-position">
+    <li className="Service">Услуги</li>
+    </ul>
+    <ul className="transport-position">
+      <li className="transport">Мы занимаемся транспортировкой коммерческих грузов по направлению</li>
+      <li className="transportTwo">Калининград-Санкт-Петербург  </li> 
+      </ul>
+   
+
 
 
 <div className="container-service">
 
 <ul className="container-block">
+    <img className="ship-cruise"src={ship} alt="logo-kmp"/>
 <li className="General-top">
 Перевозка генеральных грузов в трюмах: 
 </li>
 <li className="text-general">
-Мы занимаемся перевозкой металлопроката, пиломатериалов, труб, оборудования, 
+Перевозка металлопроката, пиломатериалов, труб, оборудования, 
 паллетного груза, сыпучих стройматериалов, плитки, ламината и других типов генеральных грузов.
 </li>
 </ul> 
 
 <ul className="container-block">
+<img className="ship-cruise"src={carton} alt="logo-kmp"/>
 <li className="General-top">
-Перевозка проектного, негабаритного и опасного груза: 
+Перевозка проектного, негабаритного груза: 
 </li>
 <li className="text-general">
 Наша компания готова взять на себя сложные задачи по транспортировке нестандартных 
-и опасных грузов, соблюдая все необходимые меры безопасности.  
+грузов, соблюдая все необходимые меры безопасности.  
 </li>
 </ul>
 
 <ul className="container-block">
+<img className="ship-cruise"src={shipTwo} alt="logo-kmp"/>
 <li className="General-top">
 Перевозка насыпных/навалочных грузов: 
 </li>
@@ -70,26 +88,12 @@ function Company(){
 
 
 
-<br/>
-▎Дополнительные услуги
-<br/>
-Кроме того, "Калининградское Морское Пароходство" организует вывоз грузов и помогает с доставкой до склада.
-
-
-<br/>
- Мы всегда на связи и оперативно информируем клиентов о местонахождении груза и сроках его доставки.
- <br/> Наша команда профессионалов гарантирует высокий уровень обслуживания и индивидуальный подход к каждому клиенту.
-
-С момента своего основания "Калининградское Морское Пароходство" зарекомендовало себя как надежный партнер в сфере морских грузоперевозок,
-<br/> и мы стремимся к дальнейшему развитию и улучшению наших услуг.
-        
-
 
        <div className="docsPosition">
-         <p className="docs">Документы для скачивания</p>
+         <p className="docs"> Документы для скачивания</p>
        </div>
       
-<DownloadDocs/>
+        <DownloadDocs/>
         <Footer />
     </div>
 
