@@ -1,3 +1,9 @@
+.vesselType{
+  font-family: "Manrope", sans-serif;
+  font-size: 43px;
+  font-weight: 400;
+}
+
 .cardPosition{
     margin-top:10%;
     display:flex;
@@ -8,27 +14,33 @@
 
 .image{
     width:380px;
-}
+   }
 
 .card{
    margin: 2%;
-    background-color:transparent;
-    transition: all 0.8s ease; 
+   transition: all 0.8s ease; 
     padding:20px;
     text-align: center;
-      }
+    background-color: transparent;
+}
 
       .card:hover {
         transform: translateY(10px);
         box-shadow: 0 0 60px #908787;
-        background-color: #ffffff;
-      }
+        }
 
 .title{
     font-family: "Manrope", sans-serif;
     font-weight: 500;
     font-size: 33px;
     color:#134B70;
+}
+
+.action{
+  background-color: transparent;
+  border:1px solid grey;
+  border-radius: 10px;
+
 }
   
 

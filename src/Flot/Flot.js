@@ -8,7 +8,7 @@
         return(
           
           <div>
-             
+             <p classname="vesselType">Суда для перевозки груза</p>
           <div className="cardPosition">
     {dataFlot.map((item=>{
       const{image, name, description,}=item;

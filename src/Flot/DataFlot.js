@@ -7,19 +7,19 @@ export const dataFlot = [
 
 {
     image:Zel,
-    name: "Зеленоградск",
+    name: '"Зеленоградск"',
     description: '',
    },
 
 {
     image:Svet,
-    name: "Светлогорск",
+    name: '"Светлогорск"',
     description: '',
 },
 
 {
     image:Yant,
-    name: "Янтарный",
+    name: '"Янтарный"',
     description: '',
 },
 

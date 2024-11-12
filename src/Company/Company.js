@@ -7,21 +7,45 @@ import ship from './cruiseShip.png';
 import carton from './сarton.png';
 import shipTwo from './shipTwo.png';
 import Custombar from "../Navbar/Navbar";
+import React, { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
 
 
+function Company() { 
+    const vesselRef = useRef(null); 
+    const textRef = useRef(null); // Создаем реф для текста
 
-function Company(){
+    useEffect(() => { 
+        // Анимация для изображения при монтировании компонента 
+        gsap.fromTo(vesselRef.current,  
+            { opacity: 0, },  
+            { opacity: 1, duration: 3, delay: 0.5, x: -30 } 
+        );
+
+        // Анимация для текста
+        gsap.fromTo(textRef.current, 
+            { opacity: 0, x: -20 }, // Начальное состояние
+            { opacity: 1, x: 0, duration: 1, delay: 0.5 } // Конечное состояние
+        );
+    }, []); 
+
     return(<div>
          <ContactsTop />
          <Custombar />  
 
+
+
 <div className="vesselPosition-Top">
 <div className="vesselPosition">
-   <img className="vessel" src={vessel} alt="vessel"/>
+   <img 
+     ref={vesselRef} 
+     className="vessel"
+     src={vessel}
+     alt="vessel"/>
 </div>  
 
-<div className="textCompanyPosition">
-<p className="textCompany"><span className="numberOne"> В 2022</span>  году Компания начала свою деятельность с фрахта двух надежных параходов, 
+<div className="textCompanyPosition" >
+<p className="textCompany" ref={textRef}><span className="numberOne"> В 2022</span>  году Компания начала свою деятельность с фрахта двух надежных параходов, 
 которые способны осуществлять перевозку различных видов грузов из Калининграда в Санк-Петербург.
 Каждый из судов оборудован необходимой техникой, что позволяет гарантировать безопасность и своевременность доставки.
     </p>

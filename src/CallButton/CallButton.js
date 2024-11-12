@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './CallButton.css';
+import close from './close-icon.png';
 
 Modal.setAppElement('#root'); // Установите элемент приложения для доступности
 
@@ -17,14 +18,21 @@ function CallButton() {
 
     return (
         <div>
-            <button className="buttontlf" onClick={openModal}>Расчитать перевозку</button>
-
+            
+            <button className="buttontlf" onClick={openModal}>Сделать заявку</button>      
+                  
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
                 contentLabel="Contact Form"
             >
-                <h2>Наш сотрудник свяжется с Вами в ближайшее время.</h2>
+              <div className="closeBtn-list-position">
+                    <button onClick={closeModal}><img className="closeBtn-list"src={close} alt="close"/></button>
+              </div>
+                 
+               
+                  
+                <h2 className="Ourstaf">Наш сотрудник свяжется с Вами в ближайшее время.</h2>
                 <form action="https://formspree.io/f/xgegyzoo" 
                 method="POST">
                     <label>
@@ -43,8 +51,15 @@ function CallButton() {
                         Ваш вопрос:
                         <textarea name="message" required></textarea>
                     </label>
-                    <button type="submit">Отправить</button>
-                    <button type="button" onClick={closeModal}>Закрыть</button>
+                   
+                   
+                    <div className="btnCall-position">
+                    <button className="btnCall" type="submit">Отправить</button>
+                    <p className="send">Нажимая кнопку "Отправить", вы даете согласие на обработку персональных данных</p>      
+                    </div>
+                      
+                    
+                                               
                 </form>
             </Modal>
         </div>
