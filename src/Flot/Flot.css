@@ -1,28 +1,50 @@
 .vesselType{
   font-family: "Manrope", sans-serif;
   font-size: 43px;
-  font-weight: 400;
+  font-weight: 600;
+  color:#0c0535;
 }
 
+.vesselType-position{
+  display:flex;
+  flex-direction: column;
+ align-items: center;
+  margin-top: 15%;
+  margin-left: 5%;
+  line-height: 28px;
+  }
+
+  .moreThan{
+    color:#908787;
+    font-size: 23px;
+  }
+
+
 .cardPosition{
-    margin-top:10%;
+    margin-top:3%;
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 10%;
+   
     }
 
 .image{
     width:380px;
+    border-radius: 7px;
    }
 
-.card{
-   margin: 2%;
-   transition: all 0.8s ease; 
-    padding:20px;
+   .card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    transition: all 0.8s ease; 
     text-align: center;
-    background-color: transparent;
-}
+    background-color: #dfe3ef;
+    border:none;
+
+    }
 
       .card:hover {
         transform: translateY(10px);
@@ -31,16 +53,47 @@
 
 .title{
     font-family: "Manrope", sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 33px;
-    color:#134B70;
+    color:#16080a;
 }
 
 .action{
   background-color: transparent;
   border:1px solid grey;
   border-radius: 10px;
-
+  font-size: 19px;
 }
   
 
+@media all and (max-width: 500px){
+
+  .vesselType{
+    font-size: 23px;
+      }
+  
+  .vesselType-position{
+    margin-top: 15%;
+    margin-left: 5%;
+    }
+  
+  
+  .cardPosition{
+           flex-direction: column;
+       }
+  
+  .image{
+      width:180px;
+      }
+  
+    
+  
+  .title{
+       font-size: 21px;
+  }
+  
+  .action{
+      font-size: 12px;
+  }
+
+}

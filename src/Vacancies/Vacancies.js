@@ -25,8 +25,10 @@ function Vacancies (){
 <ContactsTop />
 <Custombar />  
 <div className="Top-position">
-<p className="Vacancy-Top" >Вакансии</p>
+<p className="Vacancy-Top" >Вакансии на флот</p>
 <img src={blueWave}  width="250px" alt="bluewave"/>
+<p className="question">По вопросам трудоустройства пишите на hr@kdsc.ru</p>
+<p className="question">Телефон службы персонала 8(921) 106 98 69</p>
 </div>
 
 

@@ -9,6 +9,10 @@ import shipTwo from './shipTwo.png';
 import Custombar from "../Navbar/Navbar";
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import portOne from './portOne.png';
+import portPort from './portPort.png';
+import line from './line.png';
+import lineBack from './lineBack.png';
 
 
 function Company() { 
@@ -45,7 +49,7 @@ function Company() {
 </div>  
 
 <div className="textCompanyPosition" >
-<p className="textCompany" ref={textRef}><span className="numberOne"> В 2022</span>  году Компания начала свою деятельность с фрахта двух надежных параходов, 
+<p className="textCompany" ref={textRef}><span className="numberOne"> В 2022</span>  году Судоходная компания начала свою деятельность с фрахта двух надежных параходов, 
 которые способны осуществлять перевозку различных видов грузов из Калининграда в Санк-Петербург.
 Каждый из судов оборудован необходимой техникой, что позволяет гарантировать безопасность и своевременность доставки.
     </p>
@@ -67,11 +71,28 @@ function Company() {
     </ul>
     <ul className="transport-position">
       <li className="transport">Мы занимаемся транспортировкой коммерческих грузов по направлению</li>
-      <li className="transportTwo">Калининград-Санкт-Петербург  </li> 
+    
       </ul>
+
+
    
 
-
+      
+       <div className="port-position">
+      <div className="port-container">
+      <p className="Sanct">Санкт-Петербург</p>
+      <img className="portOne" src={portOne} alt="port-KMP"/> 
+      <img className="line" src={line} alt="line"/>       
+        </div>
+ 
+    <div className="port-container">
+    <p className="Kaliningrad">Калининград</p>    
+     <img className="portPort" src={portPort} alt="port-KMP"/>
+     <img className="line" src={lineBack} alt="line"/>   
+     </div>
+    
+       </div>
+  
 
 <div className="container-service">
 

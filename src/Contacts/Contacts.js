@@ -13,10 +13,15 @@ function Contacts(){
 
          <div className="adress-container"> 
           <div className="adress-position">
+            <p className="contacts-last">НАШИ</p>
             <p className="contacts-last">КОНТАКТЫ</p>
+            <div className="adressTwo-container">
            <p className="text-adress">г. Калининград, ул. Портовая 66</p>
            <p className="text-tel">Телефон: 8(4012)99 49 89</p>
            <p className="text-mail">E-mail: info@kdsc.ru</p>
+           <p className="text-tel">Режим работы: 9:00-18:00</p>  
+            </div>
+          
             </div>   
          <div className="map-container">
                 <iframe 

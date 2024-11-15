@@ -6,6 +6,10 @@ import './AboutCompany.css';
 import { Link } from 'react-router-dom';
 
 function AboutCompany(){
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0); // Прокрутка к началу страницы
+};
+
     return(<div>
 
 <div className="AboutPosition">
@@ -30,7 +34,7 @@ function AboutCompany(){
       
         <ExpTop />
         <div className="btn-position-about">
-        <Link to="/Company" className="btnAbout">Подробнее о компании <img className="kmp-icon" src={kmpIcon} alt="kmp-icon"/></Link>
+        <Link to="/Company"onClick={handleScrollToTop} className="btnAbout">Подробнее о компании <img className="kmp-icon" src={kmpIcon} alt="kmp-icon"/></Link>
         </div>
        
       </div>

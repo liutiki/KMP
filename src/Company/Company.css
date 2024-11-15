@@ -144,6 +144,56 @@ margin-left: 10%;
 }
 
 
+.portOne{
+    width:240px; 
+}
+
+.portPort{
+    width:240px; 
+}
+
+.port-position{
+border-radius: 20px;
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.Sanct{
+    font-size: 32px;
+    color:#181f3c;
+    font-weight: 800;
+}
+
+.Kaliningrad{
+    font-size: 32px;
+    color:#181f3c;
+    font-weight: 800;
+}
+
+.line{
+    width:390px;
+}
+
+.port-container{
+    display:flex;
+    flex-direction: column;
+   line-height: 11px;
+}
+
+
+.dest-position{
+display:flex;
+justify-content: center;
+align-items: center;
+width:100%;
+
+}
+
+.dest{
+    width:60%;
+}
 
 @media all and (max-width: 500px){
  

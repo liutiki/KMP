@@ -38,11 +38,15 @@
     font-size: 27px;
     font-weight: 300;
     font-family: "Manrope", sans-serif;
-    color:#686D76;
+    color:#0b172c;
 }
 
 .text-mail{
     font-size: 17px;
     font-family: "Manrope", sans-serif;
     color:#686D76;
+}
+
+.adressTwo-container{
+    margin-top: 3%;
 }

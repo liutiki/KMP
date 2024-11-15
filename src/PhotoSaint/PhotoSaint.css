@@ -1,0 +1,14 @@
+.dest-position{
+    width: 100%;
+    height: 40vh; /* Занимает всю высоту экрана */
+    overflow: hidden;
+ 
+}
+    
+    .dest{
+        width: 100%; 
+        object-fit: cover;
+    }
+
+
+    

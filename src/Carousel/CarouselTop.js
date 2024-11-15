@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Carousel from 'react-bootstrap/Carousel'; 
 import { gsap } from 'gsap'; // Импортируем GSAP
 import './Carousel.css'; 
-import shipOne from './shipOne.jpg'; 
+import shipOn from './shipOn.jpg'; 
 import shipTwo from './shipTwo.jpg'; 
 import shipThree from './shipThree.jpg'; 
  
@@ -23,14 +23,14 @@ function CarouselTop() {
       <Carousel.Item interval={2000}> 
         <img  
           className="carousel-image"  
-          src={shipOne} 
+          src={shipOn} 
           alt="First slide"  
         />  
         <Carousel.Caption> 
           <p ref={captionRef} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
         </Carousel.Caption> 
       </Carousel.Item> 
-      <Carousel.Item interval={2000}> 
+      <Carousel.Item interval={1000}> 
         <img  
           className="carousel-image"  
           src={shipTwo} 

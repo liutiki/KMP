@@ -8,16 +8,23 @@
         return(
           
           <div>
-             <p classname="vesselType">Суда для перевозки груза</p>
+            <div className="vesselType-position">
+               <p className="vesselType">Флот</p>
+               <p className="vesselType">Калининградского Морского Пароходства</p>
+               <p className="moreThan">Более 10 000 тонн общий дедвейт флота</p>
+            </div>
+            
           <div className="cardPosition">
     {dataFlot.map((item=>{
       const{image, name, description,}=item;
       return(
             <div className="card">
+              <div>
     <img src={image} className="image" alt="vessel"/>
     <p className="title">{name}</p>
     <p className="description">{description}</p>
-    <button className="action">Подробнее<span aria-hidden="true"> → </span></button>
+    <button className="action"><span aria-hidden="true"></span></button>
+        </div>
         </div>
         
       )

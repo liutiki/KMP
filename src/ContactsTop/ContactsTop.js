@@ -13,11 +13,11 @@ function ContactsTop(){
                 <div className="logo-position">
                   <img className="logo" src={logo} alt="logo" />
                 <div className="name-position">
-                <p>Калининградское</p>
-                <p>Морское Пароходство</p>
+                <p className="Kaliningrad">Калининградское</p>
+                <p className="sea">Морское Пароходство</p>
                 </div>
                 </div>
-                               
+
             </Link>
             </div>
 

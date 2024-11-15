@@ -35,21 +35,24 @@ function CallButton() {
                 <h2 className="Ourstaf">Наш сотрудник свяжется с Вами в ближайшее время.</h2>
                 <form action="https://formspree.io/f/xgegyzoo" 
                 method="POST">
+                     
                     <label>
-                        Имя:
+                        ФИО*
                         <input type="text" name="name" required />
                     </label>
                     <label>
-                        Email:
+                        Email*
                         <input type="email" name="email" required />
                     </label>
-                    <label>
-                        Телефон:
-                        <input type="text" name="name" required />
+                    <label className="lab">
+                        Телефон*
+                    <input type="text" name="phone" required /> 
                     </label>
+                   
+
                     <label>
-                        Ваш вопрос:
-                        <textarea name="message" required></textarea>
+                        Ваш вопрос
+                        <textarea className="messageText"name="message" required>Текст сообщения</textarea>
                     </label>
                    
                    
