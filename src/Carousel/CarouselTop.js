@@ -1,21 +1,23 @@
 import React, { useEffect, useRef } from 'react'; 
 import Carousel from 'react-bootstrap/Carousel'; 
-import { gsap } from 'gsap'; // Импортируем GSAP
+import { gsap } from 'gsap'; 
 import './Carousel.css'; 
 import shipOn from './shipOn.jpg'; 
 import shipTwo from './shipTwo.jpg'; 
 import shipThree from './shipThree.jpg'; 
- 
+
 function CarouselTop() {
-  // Создаем ссылку на элемент, который будем анимировать
-  const captionRef = useRef(null);
+  // Создаем массив ссылок на элементы, которые будем анимировать
+  const captionRefs = useRef([]);
 
   useEffect(() => {
-    // Анимация появления текста
-    gsap.fromTo(captionRef.current, 
-      { opacity: 0 }, // Начальное состояние
-      { opacity: 1, duration: 1 } // Конечное состояние
-    );
+    // Анимация появления текста для каждого элемента
+    captionRefs.current.forEach((caption) => {
+      gsap.fromTo(caption, 
+        { opacity: 0 }, // Начальное состояние
+        { opacity: 1, duration: 1, delay:0.5, y:-20} // Конечное состояние
+      );
+    });
   }, []); // Пустой массив зависимостей, чтобы анимация выполнялась только один раз при монтировании
 
   return ( 
@@ -27,7 +29,7 @@ function CarouselTop() {
           alt="First slide"  
         />  
         <Carousel.Caption> 
-          <p ref={captionRef} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
+          <p ref={el => captionRefs.current[0] = el} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
         </Carousel.Caption> 
       </Carousel.Item> 
       <Carousel.Item interval={1000}> 
@@ -37,7 +39,7 @@ function CarouselTop() {
           alt="Second slide"  
         />  
         <Carousel.Caption> 
-          <p ref={captionRef} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
+          <p ref={el => captionRefs.current[1] = el} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
         </Carousel.Caption> 
       </Carousel.Item> 
       <Carousel.Item interval={2000}> 
@@ -47,12 +49,13 @@ function CarouselTop() {
           alt="Third slide"  
         />  
         <Carousel.Caption> 
-          <p ref={captionRef} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
+          <p ref={el => captionRefs.current[2] = el} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
         </Carousel.Caption> 
       </Carousel.Item> 
     </Carousel> 
   ); 
 } 
- 
+
 export default CarouselTop;
+
 

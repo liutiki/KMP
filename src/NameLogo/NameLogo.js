@@ -1,20 +1,38 @@
+import React, { useEffect, useRef } from 'react';
+import { useInView } from 'react-intersection-observer';
+import { gsap } from 'gsap';
 import photoShip from './photo-ship.jpg';
 import './NameLogo.css';
 import CallButton from '../CallButton/CallButton';
 
+function NameLogo() {
+    const { ref, inView } = useInView({
+        threshold: 0.1, // 10% элемента должно быть видно
+    });
 
-function NameLogo (){
-    return(<div className="phraze">
-<img className="ship" src={photoShip} alt="ship" />
+    const imgRef = useRef(null);
 
-<div className="phrazeSecond">
-<p className="safety">Безопасность и качество в каждой доставке</p>
-<p className="safety">Мы делаем сложное простым</p>
-<CallButton/>
-</div>
+    useEffect(() => {
+        if (inView) {
+            // Анимация появления картинки
+            gsap.fromTo(imgRef.current, 
+                { opacity: 0, scale: 0.5 }, // Начальное состояние
+                { opacity: 1, scale: 1, duration: 1 } // Конечное состояние
+            );
+        }
+    }, [inView]);
 
-    </div>)
+    return (
+        <div className="phraze" ref={ref}>
+            <img className="ship" src={photoShip} alt="ship" ref={imgRef} />
+
+            <div className="phrazeSecond">
+                <p className="safety">Безопасность и качество в каждой доставке</p>
+                <p className="safety">Мы делаем сложное простым</p>
+                <CallButton />
+            </div>
+        </div>
+    );
 }
-
 
 export default NameLogo;

@@ -23,7 +23,7 @@
     <img src={image} className="image" alt="vessel"/>
     <p className="title">{name}</p>
     <p className="description">{description}</p>
-    <button className="action"><span aria-hidden="true"></span></button>
+  
         </div>
         </div>
         

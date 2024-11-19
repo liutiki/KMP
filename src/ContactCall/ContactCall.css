@@ -1,88 +1,61 @@
 .modalQuestion-container{
     background-color: #1c234f;
-    width:650px;
+    width:70%;
+    border-radius: 20px;
 }
 
-
-.Ourstaf{
-    font-family: "Manrope", sans-serif;
-    font-weight: 500;
-    color:#062c45;
-    font-size: 31px;
+.way{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 10%;
 }
 
-.buttontlf{
-    background-color:#69fecc;
-    padding:12px;
+.connectWithUs{
+color:white;
+font-family: "Manrope", sans-serif;
+font-size: 36px;
+line-height: 40px;
+}
+
+.connectWithUs-position{
+    margin-top: 3%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillForm{
     color:white;
-    width:55%;
-    border:none;
     font-family: "Manrope", sans-serif;
-    font-size: 25px;
-    border-radius: 10px;
+    font-size: 18px;
+    line-height: 40px;  
 }
 
-.buttontlf:hover{
-    background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
-    background-color:rgb(46, 35, 171) /*this your primary color*/
- }
-
-
-
-    /* Основные стили для кнопки */
-.button {
-    background-color: #4CAF50; /* Зеленый цвет */
-    color: white; /* Белый текст */
-    padding: 10px 20px; /* Отступы */
-    border: none; /* Без границы */
-    border-radius: 5px; /* Закругленные углы */
-    cursor: pointer; /* Курсор в виде указателя */
-    font-size: 16px; /* Размер шрифта */
-    transition: background-color 0.3s; /* Плавный переход */
-}
-
-.button:hover {
-    background-color: #45a049; /* Цвет при наведении */
-}
-
-/* Стили для модального окна */
-.ReactModal__Overlay {
-    z-index: 1001;
-    background:linear-gradient(rgba(18, 32, 154, 0.5),transparent);
-    background-color:rgb(19, 10, 185) /*this your primary color*/
- }
-
-.ReactModal__Content {
-    top: 50%;
-    left: 50%;
-    transform:translate(30%, 5%) ; /* Центрирование окна */
-    border-radius: 10px; /* Закругленные углы */
-    padding: 20px; /* Отступы внутри окна */
-    width: 60%; /* Ширина модального окна */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Тень под окном */
-}
-
-/* Заголовок модального окна */
-h2 {
-    margin-top: 0; /* Убираем верхний отступ */
-    color: #333; /* Темный цвет текста */
-}
-
-/* Стили для формы */
-form {
+.form-container {
     display: flex;
-    flex-direction: column; /* Вертикальное расположение элементов */
-    border:1px s
+    flex-direction: column; 
 }
 
-/* Стили для меток и полей ввода */
-label {
-    color:black;
-    margin-bottom: 10px; /* Отступы между элементами */
-    font-size: 15px;
+
+.textName {
+    color:white;
+    margin-bottom: 13px; /* Отступы между элементами */
+    font-size: 17px;
+    
 }
 
-input[type="text"],
+
+input[type="text"]
+{
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    margin-top: 5px;
+    width:50%; 
+}
+
 input[type="email"]
 {
     padding: 10px; /* Отступы внутри полей */
@@ -92,22 +65,27 @@ input[type="email"]
     width:50%;
 }
 
+input[type="phone"]
 
-
-.textarea {
+{
     padding: 10px; /* Отступы внутри полей */
     border: 1px solid #ccc; /* Светлая граница */
     border-radius: 5px; /* Закругленные углы */
-    margin-top: 5px; /* Отступ сверху */ 
-}
+    margin-top: 5px; /* Отступ сверху */
+    width:50%;
+    margin-left: 7%;
+    }
+
+
+
 
 .btnCall-position{
-    margin-top: 7%;
-    margin-bottom: 3%;
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;  
+ margin-top: 7%;
+ margin-bottom: 3%;
+ display:flex;
+ flex-direction: column;
+ justify-content:center;
+ align-items: center;  
 }
 
 .btnCall{
@@ -127,18 +105,9 @@ cursor: pointer;
 }
 
 
-.closeBtn-list-position{
-    display:flex;
-    justify-content: flex-end;
-}
 
-.closeBtn-list{
-    width:40px;
-    border-radius: 50%;
-  }
-
-.send{
+.press-Send{
     font-family: "Manrope", sans-serif;
-    color:#0c2739;
+    color:white;
     font-size: 18px;
 }
