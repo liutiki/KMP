@@ -49,11 +49,13 @@
 .ReactModal__Content {
     top: 50%;
     left: 50%;
+    margin-bottom: 10%;
     transform:translate(30%, 5%) ; /* Центрирование окна */
     border-radius: 10px; /* Закругленные углы */
     padding: 20px; /* Отступы внутри окна */
     width: 60%; /* Ширина модального окна */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Тень под окном */
+    height:90vh;
 }
 
 

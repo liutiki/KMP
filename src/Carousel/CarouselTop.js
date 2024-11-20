@@ -5,6 +5,7 @@ import './Carousel.css';
 import shipOn from './shipOn.jpg'; 
 import shipTwo from './shipTwo.jpg'; 
 import shipThree from './shipThree.jpg'; 
+import CallButton from '../CallButton/CallButton';
 
 function CarouselTop() {
   // Создаем массив ссылок на элементы, которые будем анимировать
@@ -22,24 +23,29 @@ function CarouselTop() {
 
   return ( 
     <Carousel fade> 
-      <Carousel.Item interval={2000}> 
+      <Carousel.Item interval={4000}> 
         <img  
           className="carousel-image"  
           src={shipOn} 
           alt="First slide"  
         />  
         <Carousel.Caption> 
-          <p ref={el => captionRefs.current[0] = el} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
+          <ul className="delivery">
+          <li className="magic">Доставка грузов </li> 
+          <li className="magic">Калининград - Санкт-Петербург</li> 
+          <CallButton />
+          </ul>
+      
         </Carousel.Caption> 
       </Carousel.Item> 
-      <Carousel.Item interval={1000}> 
+      <Carousel.Item interval={4000}> 
         <img  
           className="carousel-image"  
           src={shipTwo} 
           alt="Second slide"  
         />  
         <Carousel.Caption> 
-          <p ref={el => captionRefs.current[1] = el} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
+          <p className="magic carousel-caption">Доставка грузов Калининград - Санкт-Петербург</p> 
         </Carousel.Caption> 
       </Carousel.Item> 
       <Carousel.Item interval={2000}> 
@@ -49,7 +55,7 @@ function CarouselTop() {
           alt="Third slide"  
         />  
         <Carousel.Caption> 
-          <p ref={el => captionRefs.current[2] = el} className="magic carousel-caption">Доставка грузов из Калининграда в Санкт-Петербург</p> 
+          <p className="magic carousel-caption">Доставка грузов Калининград - Санкт-Петербург</p> 
         </Carousel.Caption> 
       </Carousel.Item> 
     </Carousel> 

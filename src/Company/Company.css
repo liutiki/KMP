@@ -11,6 +11,7 @@
     width:600px;
     border-radius: 20px;
     opacity:0;
+    margin-left: 5%;
    }
    
 
@@ -79,20 +80,18 @@ margin-left: 10%;
 .container-service{
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
+    justify-content:space-evenly;
+
 }
 
 
 .container-block{
     background:linear-gradient(rgb(237, 245, 241),transparent);
     background-color: rgba(171, 185, 223, 0.367);/*this your primary color*/
-    margin:3%;
-    height:55vh;
-    max-width: 40%;
+   margin:10px;
     list-style: none;
     border-radius: 20px;
-    flex-wrap: wrap;
+    padding:30px;
 }
 
 .container-block:hover{
@@ -104,10 +103,6 @@ margin-left: 10%;
     font-size: 16px;   
 }
 
-
-.textCompanyPosition{
-    max-width: 650px;
-}
 
 .textCompany{
     font-family: "Manrope", sans-serif;
@@ -133,8 +128,6 @@ margin-left: 10%;
 }
 
 .text-general{
-    max-width: 90%;
-    max-height: 30%;
     margin-top: 14%;
     font-size: 18px;
     font-weight: 400;
@@ -172,9 +165,7 @@ align-items: center;
     font-weight: 800;
 }
 
-.line{
-    width:390px;
-}
+
 
 .port-container{
     display:flex;
@@ -187,13 +178,8 @@ align-items: center;
 display:flex;
 justify-content: center;
 align-items: center;
-width:100%;
-
 }
 
-.dest{
-    width:60%;
-}
 
 @media all and (max-width: 500px){
  

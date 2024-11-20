@@ -9,6 +9,7 @@ import Flot from "../Flot/Flot";
 import Footer from "../Footer/Footer";
 import NameLogo from "../NameLogo/NameLogo";
 import Custombar from "../Navbar/Navbar";
+import NewTitul from "../NewTitul/NewTitul";
 import PhotoSaint from "../PhotoSaint/PhotoSaint";
 import './Home.css';
 
@@ -16,9 +17,8 @@ import './Home.css';
 
 function Home(){
     return(<div>
-        <ContactsTop />
       
-      <CarouselTop />
+      <NewTitul />
 
       <Custombar />  
       <PhotoSaint />

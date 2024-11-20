@@ -1,0 +1,68 @@
+.shipTitul{
+    height:auto;
+    width:100%;
+    }
+
+.titul-container {
+    position: relative; /* Позволяет позиционировать дочерние элементы относительно этого контейнера */
+}
+
+.delivery-position {
+    position: absolute; /* Позволяет позиционировать текст поверх изображения */
+    top: 40%; /* Центрирует по вертикали */
+    left: 30%; /* Центрирует по горизонтали */
+    transform: translate(-50%, -50%); /* Корректирует центрирование */
+    text-align:left; /* Центрирует текст внутри блока */
+    z-index: 1; /* Обеспечивает, что текст будет выше изображения */
+
+  }
+  .contactsNewTop{
+    position: absolute; /* Позволяет позиционировать текст поверх изображения */
+    z-index: 1; /* Обеспечивает, что текст будет выше изображения */
+  }
+
+
+  .btnCall-top{
+    background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
+    background-color:rgb(46, 35, 171);
+    border:none;
+    color:white;
+    font-family: "Manrope", sans-serif;
+    padding:15px;
+    font-size: 22px;
+    width:250px;
+    border-radius: 5px;
+  }
+
+  .btnCall-top:hover{
+    background:linear-gradient(rgba(150, 216, 233, 0.5),transparent);
+    background-color:rgb(24, 8, 194);
+    font-size: 24px;
+  }
+
+
+
+  .your-position{
+margin-top:25%;
+  }
+
+  .your{
+    color:white;
+    font-size: 46px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    line-height: 43px;
+  }
+
+
+  .seaWay-position{
+margin-top: 35%;
+  }
+
+  .seaWay{
+    color:aliceblue;
+    font-size: 46px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    line-height: 43px;
+  }

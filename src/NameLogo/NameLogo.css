@@ -1,13 +1,13 @@
 .ship{
-    width:40%;
-    height:35vh;
+    width:47%;
+
 }
 
 .phraze{
-    margin-top: 5%;
+    margin-top: 15%;
     display:flex;
     flex-direction: row;
-justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
    
 }
@@ -15,12 +15,18 @@ justify-content: space-around;
 .phrazeSecond{
     display:flex;
     flex-direction: column;
+    margin-left: 2%;
 }
 
 .safety{
     font-family: "Manrope", sans-serif;
     font-weight: 600;
-    font-size: 37px;
-    color:#758694;
+    font-size: 32px;
+    color:#4a4c4e;
+    line-height: 78px;
 }
 
+.check{
+width:40px;
+margin-right: 10px;
+}

@@ -1,5 +1,4 @@
 .topInfo{
-    background-color: white;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,7 +22,7 @@
 .Kaliningrad{
     line-height: 16px;
     font-size: 25px;
-    color:#201E43;
+    color:#201E43;;
     font-family: "Manrope", sans-serif;
     font-weight:800;
     text-decoration: none;
@@ -31,7 +30,7 @@
 
 .sea{
     font-size: 32px;
-    color:#201E43;
+    color:#201E43;;
     font-family: "Manrope", sans-serif;
     font-weight:800;
     text-decoration: none;

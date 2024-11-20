@@ -3,16 +3,13 @@ body{
  }
 
  body::before {
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-with-map-islands_600765-412.jpg?w=740);
-    opacity: 0.2; /* Прозрачность фона */
-    z-index: -1; /* Устанавливаем ниже других элементов */
-}
+ 
+    }
 
 
 .Top-position{

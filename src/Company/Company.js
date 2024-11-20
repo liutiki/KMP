@@ -13,6 +13,7 @@ import portOne from './portOne.png';
 import portPort from './portPort.png';
 import line from './line.png';
 import lineBack from './lineBack.png';
+import ContactCall from "../ContactCall/ContactCall";
 
 
 function Company() { 
@@ -52,7 +53,7 @@ function Company() {
 <p className="textCompany" ref={textRef}><span className="numberOne"> В 2022</span>  году Судоходная компания начала свою деятельность с фрахта двух надежных параходов, 
 которые способны осуществлять перевозку различных видов грузов из Калининграда в Санк-Петербург.
 Каждый из судов оборудован необходимой техникой, что позволяет гарантировать безопасность и своевременность доставки.
-    </p>
+</p>
 </div>
 
 </div>
@@ -71,58 +72,42 @@ function Company() {
     </ul>
     <ul className="transport-position">
       <li className="transport">Мы занимаемся транспортировкой коммерческих грузов по направлению</li>
+      <li className="transportTwo">Калинингргад-Выборг-Калининград</li>
+    </ul>
     
-      </ul>
 
 
-   
-
-      
-       <div className="port-position">
-      <div className="port-container">
-      <p className="Sanct">Санкт-Петербург</p>
-      <img className="portOne" src={portOne} alt="port-KMP"/> 
-      <img className="line" src={line} alt="line"/>       
-        </div>
  
-    <div className="port-container">
-    <p className="Kaliningrad">Калининград</p>    
-     <img className="portPort" src={portPort} alt="port-KMP"/>
-     <img className="line" src={lineBack} alt="line"/>   
-     </div>
     
-       </div>
+      
   
 
 <div className="container-service">
 
 <ul className="container-block">
-    <img className="ship-cruise"src={ship} alt="logo-kmp"/>
+<img className="ship-cruise"src={ship} alt="logo-kmp"/>
 <li className="General-top">
-Перевозка генеральных грузов в трюмах: 
+Перевозка генеральных  <br/> грузов в трюмах: 
 </li>
 <li className="text-general">
 Перевозка металлопроката, пиломатериалов, труб, оборудования, 
-паллетного груза, сыпучих стройматериалов, плитки, ламината и других типов генеральных грузов.
+паллетного груза, сыпучих стройматериалов, плитки, 
+ламината и других типов генеральных грузов.
 </li>
 </ul> 
 
 <ul className="container-block">
 <img className="ship-cruise"src={carton} alt="logo-kmp"/>
-<li className="General-top">
-Перевозка проектного, негабаритного груза: 
-</li>
-<li className="text-general">
-Наша компания готова взять на себя сложные задачи по транспортировке нестандартных 
-грузов, соблюдая все необходимые меры безопасности.  
+<li className="General-top"> Перевозка проектного, негабаритного груза:</li>
+<li className="text-general">Наша компания готова взять на себя сложные задачи 
+                             по транспортировке нестандартных 
+                             грузов, соблюдая все необходимые меры безопасности.  
 </li>
 </ul>
 
 <ul className="container-block">
 <img className="ship-cruise"src={shipTwo} alt="logo-kmp"/>
-<li className="General-top">
-Перевозка насыпных/навалочных грузов: 
-</li>
+<li className="General-top">Перевозка насыпных/навалочных грузов: </li>
 <li className="text-general">
 Мы предлагаем услуги по перевозке насыпных и навалочных грузов,
 обеспечивая их надежную упаковку и транспортировку.  
@@ -139,6 +124,8 @@ function Company() {
        </div>
       
         <DownloadDocs/>
+
+        <ContactCall/>
         <Footer />
     </div>
 

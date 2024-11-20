@@ -8,25 +8,22 @@ margin-top: 20%;
 
 .PositionTwo{
 
-background-color: #134B70;
+background-color: #134b70;
 display:flex;
 flex-direction: column;
-
+align-items: center;
 }
 
 
 .PortPhoto{
     width:500px;  
- 
 }
 
 .Text-position{
-    display:flex;
+display:flex;
 justify-content: center;
-margin-left: 2%;
-margin-right: 2%;
-
 }
+
 .textAbout{
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
@@ -34,6 +31,7 @@ margin-right: 2%;
    font-weight:400;
    line-height: 32px;
    color:white;
+   margin-left: 5%;
 }
 
 .btn-position-about{
