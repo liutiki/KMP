@@ -30,16 +30,24 @@ function NewTitul(){
 <div className="delivery-position">
 
     <div className="seaWay-position">
-    <p className="seaWay">Морские Грузоперевозки</p>
-    <p className="seaWay">Калининград - Санкт-Петербург</p>
+    <p className="your-Top">ВАШ НАДЕЖНЫЙ ПАРТНЕР В СФЕРЕ МОРСКИХ ПЕРЕВОЗОК</p>
+    <p className="seaWay">Морские</p>
+    <p className="seaWay">Грузоперевозки</p>
+
+    <div className="seaWayWork-position">
+      <p className="seaWayWork">Работаем по направлению</p>
+      <p className="seaWayWork">Калининград - Санкт-Петербург</p>   
+      <p className="seaWayOffice">Представительства в Калининграде и Санкт-Петербурге</p>   
+    </div>
+   
     <button className="btnCall-top">Связаться с нами</button>     
     </div>
 
    
  
     <div className="your-position">
-    <p className="your">ВАШ НАДЕЖНЫЙ ПАРТНЕР</p>
-    <p className="your">В СФЕРЕ МОРСКИХ ПЕРЕВОЗОК</p>    
+    <p className="your"></p>
+    <p className="your"></p>    
     </div>
    
 </div>

@@ -4,23 +4,32 @@
     }
 
 .titul-container {
-    position: relative; /* Позволяет позиционировать дочерние элементы относительно этого контейнера */
+    position: relative; 
+}
+
+.your-Top{
+    color:white;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    line-height: 43px;
 }
 
 .delivery-position {
-    position: absolute; /* Позволяет позиционировать текст поверх изображения */
-    top: 40%; /* Центрирует по вертикали */
-    left: 30%; /* Центрирует по горизонтали */
-    transform: translate(-50%, -50%); /* Корректирует центрирование */
-    text-align:left; /* Центрирует текст внутри блока */
-    z-index: 1; /* Обеспечивает, что текст будет выше изображения */
-
+    position: absolute; 
+    top: 60%;
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    text-align:left; 
+    z-index: 1; 
   }
+
+  /*
   .contactsNewTop{
-    position: absolute; /* Позволяет позиционировать текст поверх изображения */
-    z-index: 1; /* Обеспечивает, что текст будет выше изображения */
+    position: absolute; 
+    z-index: 1; 
   }
-
+  */
 
   .btnCall-top{
     background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
@@ -32,6 +41,7 @@
     font-size: 22px;
     width:250px;
     border-radius: 5px;
+    margin-top: 15px;
   }
 
   .btnCall-top:hover{
@@ -56,13 +66,44 @@ margin-top:25%;
 
 
   .seaWay-position{
-margin-top: 35%;
+margin-top: 25%;
   }
 
   .seaWay{
-    color:aliceblue;
-    font-size: 46px;
+    color:rgb(19, 15, 55);
+    font-size: 66px;
     font-family: "Manrope", sans-serif;
-    font-weight: 200;
+    font-weight: 800;
     line-height: 43px;
   }
+
+  .seaWayWork-position{
+    margin-top: 20%;
+  }
+
+  .seaWayWork{
+    color:white;
+    font-size: 26px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    line-height: 43px;
+    line-height: 15px;
+  }
+  .seaWayOffice{
+    color:white;
+    font-size: 26px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    line-height: 43px;
+    line-height: 15px;
+  }
+
+ 
+  @media all and (max-width: 500px){
+
+
+
+
+
+  }
+

@@ -11,7 +11,7 @@
  align-items: center;
   margin-top: 15%;
   margin-left: 5%;
-  line-height: 28px;
+  line-height: 33px;
   }
 
   .moreThan{
@@ -30,8 +30,8 @@
     }
 
 .image{
-    width:380px;
-    border-radius: 7px;
+    width:450px;
+
    }
 
    .card{
@@ -43,7 +43,8 @@
     text-align: center;
     background-color: #dfe3ef;
     border:none;
-
+margin-top: 5%;
+margin-bottom: 5%;
     }
 
       .card:hover {

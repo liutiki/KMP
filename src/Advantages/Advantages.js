@@ -2,6 +2,10 @@ import './Advantages.css';
 import logoOne from './kmp-logo-one.jpg';
 import logoThree from './kmp-logo-three.jpg';
 import logoTwo from './kmp-logo-two.jpg';
+import logoFour from './kmp-logo-four.png';
+import logoFive from './kmp-logo-five.png';
+import logoSix from './kmp-logo-six.png';
+import CallButton from '../CallButton/CallButton';
 
 function Advantages() {
     return(
@@ -15,7 +19,7 @@ function Advantages() {
 <div className="adv">
     <img className="logoOne"src={logoOne} alt="kmp-logo"/>
     <p className="adv-text">Собственный флот:</p>
-    <p className="adv-textTwo">Наличие собственного судна позволяет контролировать графики,
+    <p className="adv-textTwo">Наличие собственных судов позволяет контролировать графики,
        качество обслуживания и безопасность перевозок.</p>
 </div>
 <div className="adv">
@@ -36,17 +40,23 @@ function Advantages() {
 
 <div className="container-adv-two">
 <div className="adv">
-    <img src="" alt="kmp-logo"/>
-    <p>индивидуально разработанные решения, учитывающие личные потребности клиентов</p>
+    <img className="logoOne"src={logoFour} alt="kmp-logo"/>
+    <p className="adv-text">Индивидуальные решения </p>
+    <p className="adv-textTwo">Консультируем по всем возникающим вопросам,
+                               учитываем личные потребности клиентов</p>
 </div>
 
 <div className="adv">
-    <img src="" alt="kmp-logo"/>
-    <p>Особая экономическая зона</p>
+    <img className="logoOne"src={logoFive} alt="kmp-logo"/>
+    <p className="adv-text">Квалифицированный персонал</p>
+    <p className="adv-textTwo">Эффективное управление грузоперевозками, 
+                               соблюдение всех стандартов и правил безопасности </p>
 </div>
 <div className="adv">
-    <img src="" alt="kmp-logo"/>
-    <p>Оставить заявку</p>
+    <img className="logoOne"src={logoSix} alt="kmp-logo"/>
+    <p className="adv-text"> </p>
+    <p className="adv-textTwo"></p>
+    <CallButton />
 </div>
 
 </div>
