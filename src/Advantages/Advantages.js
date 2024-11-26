@@ -99,7 +99,7 @@ function Advantages() {
     <img className="logoOne"src={logoSix} alt="kmp-logo"/>
     <p className="adv-text"> </p>
     <p className="adv-textTwo"></p>
-    <CallButton />
+    <p className="advBtnCall"><CallButton /></p> 
 </div>
 
 </div>

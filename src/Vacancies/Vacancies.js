@@ -39,30 +39,30 @@ function Vacancies (){
     <div className="picture-position-vacancy">
     <img className="picture" src={map} alt="vessel"/>
     </div>
-    <p>Судовой повар</p>
-    <p>Тип судна: Генеральные грузы</p>
-    <p>Дата посадки: 30/10/2024</p>
-    <p>Зарплата : 130 000 рублей</p>
+    <p className="type">Судовой повар</p>
+    <p className="type">Тип судна: Генеральные грузы</p>
+    <p className="type">Дата посадки: 30/10/2024</p>
+    <p className="type">Зарплата : 130 000 рублей</p>
 </div>
 
 <div className="vac">
     <div className="picture-position-vacancy">
     <img src={map} className="picture" alt="vessel"/>     
     </div>
-    <p>2 механик</p>
-    <p>Тип судна: Генеральные грузы</p>
-    <p>Дата посадки: 30/10/2024</p>
-    <p>Зарплата : 240 000 рублей</p>
+    <p className="type">2 механик</p>
+    <p className="type">Тип судна: Генеральные грузы</p>
+    <p className="type">Дата посадки: 30/10/2024</p>
+    <p className="type">Зарплата : 240 000 рублей</p>
 </div>
 
 <div className="vac">
 <div className="picture-position-vacancy">
     <img src={map} className="picture" alt="vessel"/>     
     </div>
-    <p>Матросы 1,2 класса</p>
-    <p>Тип судна: Генеральные грузы</p>
-    <p>Дата посадки: 30/10/2024</p>
-    <p>Зарплата : 110 000 рублей</p>     
+    <p className="type">Матросы 1,2 класса</p>
+    <p className="type">Тип судна: Генеральные грузы</p>
+    <p className="type">Дата посадки: 30/10/2024</p>
+    <p className="type">Зарплата : 110 000 рублей</p>     
   </div>
 
 </div>

@@ -35,9 +35,7 @@
     transition: background-color 0.3s; /* Плавный переход */
 }
 
-.button:hover {
-    background-color: #45a049; /* Цвет при наведении */
-}
+
 
 /* Стили для модального окна */
 .ReactModal__Overlay {
@@ -119,7 +117,7 @@ input[type="email"]
 }
 
 .btnCall{
-background-color: #4233a5;
+background-color: #2d0fefda;
 border:none;
 border-radius: 10px;
 color:white;
@@ -130,7 +128,7 @@ cursor: pointer;
 }
 
 .btnCall:hover{
-    background-color: #2d2271;
+    background-color: #2707f6;
     color:#f5f7f8;
 }
 

@@ -64,8 +64,7 @@ input[type="email"]
     border-radius: 5px; /* Закругленные углы */
     margin-top: 5px; /* Отступ сверху */
     width:50%;
-
-}
+    }
 
 
 input[type="phone"]
@@ -76,7 +75,7 @@ input[type="phone"]
     border-radius: 5px; /* Закругленные углы */
     margin-top: 5px; /* Отступ сверху */
     width:50%;
-    margin-left: 6%;
+    margin-left: 7%;
     }
 
 
