@@ -1,6 +1,5 @@
 .ship{
     width:47%;
-
 }
 
 .phraze{
@@ -8,8 +7,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-   
+    align-items: center; 
 }
 
 .phrazeSecond{
@@ -29,4 +27,40 @@
 .check{
 width:40px;
 margin-right: 10px;
+}
+
+
+@media all and (max-width: 500px){
+
+    .ship{
+        width:80%;
+    }
+
+    .phraze{
+        margin-top: 15%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; 
+    }
+    .safety{
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color:#4a4c4e;
+        line-height: 28px;
+    }
+
+    .check{
+        width:30px;
+        margin-right: 10px;
+        }
+
+        .phrazeSecond{
+            display:flex;
+            flex-direction: column;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+
 }

@@ -1,37 +1,76 @@
-
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import AboutCompany from "../AboutCompany/AboutCompany";
 import Advantages from "../Advantages/Advantages";
 import AdvantagesGsap from "../AdvantagesGSAP/AdvantagesGsap";
 import ContactCall from "../ContactCall/ContactCall";
+import ContactsTop from "../ContactsTop/ContactsTop";
 import Flot from "../Flot/Flot";
 import Footer from "../Footer/Footer";
 import NameLogo from "../NameLogo/NameLogo";
-import Custombar from "../Navbar/Navbar";
 import NewTitul from "../NewTitul/NewTitul";
-import PhotoSaint from "../PhotoSaint/PhotoSaint";
 import './Home.css';
 
+gsap.registerPlugin(ScrollTrigger);
 
+function Home() {
+    useEffect(() => {
+        // Анимация для всех компонентов
+        const sections = document.querySelectorAll('.animate-section');
 
-function Home(){
-    return(<div>
+        sections.forEach(section => {
+            gsap.fromTo(section, 
+                { y: 100, opacity: 0 }, // Начальное состояние
+                { 
+                    y: 0, 
+                    opacity: 1, 
+                    duration: 1, 
+                    scrollTrigger: {
+                        trigger: section,
+                        start: "top 80%", // Начало анимации
+                        toggleActions: "play none none reverse", // Действия при прокрутке
+                    }
+                }
+            );
+        });
+
+        return () => {
+            ScrollTrigger.getAll().forEach(trigger => trigger.kill()); // Удаляем все триггеры при размонтировании компонента
+        };
+    }, []);
+
+    return (
+        <div>
+         
+                <ContactsTop />
+     
       
-      <NewTitul />
-
-      <Custombar />  
-      <PhotoSaint />
-      <NameLogo />
-   
-     <AboutCompany />
-     <AdvantagesGsap />
-     <Advantages />
-      <Flot/>
-      <ContactCall/>
-      <Footer />
-    </div>
-
-    )
-  
+                <NewTitul />
+           
+            <div className="animate-section">
+                <NameLogo />
+            </div>
+            <div className="animate-section">
+                <AboutCompany />
+            </div>
+            <div className="animate-section">
+                <AdvantagesGsap />
+            </div>
+            <div className="animate-section">
+                <Advantages />
+            </div>
+            <div className="animate-section">
+                <Flot />
+            </div>
+            <div className="animate-section">
+                <ContactCall />
+            </div>
+      
+                <Footer />
+            
+        </div>
+    );
 }
 
 export default Home;

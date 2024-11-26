@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import ContactsTop from '../ContactsTop/ContactsTop';
 import './NewTitul.css';
 import shipOn from './shipOn.jpg';
 import { gsap } from 'gsap';
+import Custombar from '../Navbar/Navbar';
 
 
 function NewTitul(){
@@ -20,7 +20,8 @@ function NewTitul(){
     return(
         <div className="titul-container">
             <div className="contactsNewTop">
-               <ContactsTop /> 
+          
+               <Custombar/>
             </div>
         
         <div >

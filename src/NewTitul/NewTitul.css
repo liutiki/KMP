@@ -17,7 +17,7 @@
 
 .delivery-position {
     position: absolute; 
-    top: 60%;
+    top:55%;
     left: 30%; 
     transform: translate(-50%, -50%); 
     text-align:left; 
@@ -78,7 +78,7 @@ margin-top: 25%;
   }
 
   .seaWayWork-position{
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
   .seaWayWork{
@@ -87,8 +87,9 @@ margin-top: 25%;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     line-height: 43px;
-    line-height: 15px;
+
   }
+
   .seaWayOffice{
     color:white;
     font-size: 26px;
@@ -101,45 +102,35 @@ margin-top: 25%;
  
   @media all and (max-width: 500px){
 
-    .shipTitul{
-        height:auto;
-        width:100%;
-        }
+
     
-    .titul-container {
-        position: relative; 
-    }
+    .seaWay-position{
+        margin-top: 55%;
+          }
+        
     
     .your-Top{
         color:white;
-        font-size: 16px;
-        font-family: "Manrope", sans-serif;
+        font-size: 10px;
         font-weight: 400;
-        line-height: 43px;
+        line-height: 12px;
     }
     
     .delivery-position {
-        position: absolute; 
-        top: 60%;
-        left: 30%; 
-        transform: translate(-50%, -50%); 
-        text-align:left; 
-        z-index: 1; 
+        top: 70%;
+        left: 40%; 
       }
-    
-       
+           
       .btnCall-top{
-        padding:15px;
-        font-size: 22px;
+        padding:6px;
+        font-size: 12px;
         width:150px;
         border-radius: 5px;
         margin-top: 15px;
       }
     
       .btnCall-top:hover{
-        background:linear-gradient(rgba(150, 216, 233, 0.5),transparent);
-        background-color:rgb(24, 8, 194);
-        font-size: 16px;
+        font-size: 11px;
       }
     
     
@@ -150,23 +141,17 @@ margin-top: 25%;
     
       .your{
         color:white;
-        font-size: 46px;
+        font-size: 36px;
         font-family: "Manrope", sans-serif;
         font-weight: 600;
         line-height: 43px;
       }
     
     
-      .seaWay-position{
-    margin-top: 25%;
-      }
-    
       .seaWay{
-        color:rgb(19, 15, 55);
-        font-size: 66px;
-        font-family: "Manrope", sans-serif;
+        font-size: 26px;
         font-weight: 800;
-        line-height: 43px;
+        line-height: 13px;
       }
     
       .seaWayWork-position{
@@ -175,16 +160,14 @@ margin-top: 25%;
     
       .seaWayWork{
         color:white;
-        font-size: 26px;
+        font-size: 16px;
         font-family: "Manrope", sans-serif;
         font-weight: 400;
-        line-height: 43px;
         line-height: 15px;
       }
       .seaWayOffice{
         color:white;
-        font-size: 26px;
-        font-family: "Manrope", sans-serif;
+        font-size: 16px;
         font-weight: 400;
         line-height: 43px;
         line-height: 15px;

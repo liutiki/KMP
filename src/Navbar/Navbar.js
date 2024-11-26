@@ -9,7 +9,7 @@ function Custombar() {
   return (
     <>
       {[ 'sm', ].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+        <Navbar key={expand} expand={expand} className="body-tertiary mb-3">
           <Container fluid>
             <Navbar.Brand href="#"></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -25,10 +25,10 @@ function Custombar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="nav justify-content-end flex-grow-1 pe-3">
-                <Nav.Link as={Link} to="/Company">О компании</Nav.Link>
-                <Nav.Link as={Link} to="/Service">Услуги</Nav.Link> 
-                <Nav.Link as={Link} to="/Vacancies">Вакансии на флот</Nav.Link>
-                <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
+                <Nav.Link as={Link} to="/Company" className="white-text">О компании</Nav.Link>
+                <Nav.Link as={Link} to="/Service" className="white-text">Услуги</Nav.Link> 
+                <Nav.Link as={Link} to="/Vacancies" className="white-text">Вакансии на флот</Nav.Link>
+                <Nav.Link as={Link} to="/Contacts"className="white-text">Контакты</Nav.Link>
                 </Nav>
                 
               </Offcanvas.Body>

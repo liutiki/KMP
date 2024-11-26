@@ -1,8 +1,15 @@
-.nav{
-    font-family: "Raleway", sans-serif;
-    font-size: 21px;
-    }
 
-.nav:hover{
-    color:beige;
-}
+.contactsNewTop{
+    position: absolute; 
+    z-index: 1; 
+  }
+
+
+
+
+
+
+
+
+
+

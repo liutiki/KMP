@@ -6,8 +6,51 @@ import logoFour from './kmp-logo-four.png';
 import logoFive from './kmp-logo-five.png';
 import logoSix from './kmp-logo-six.png';
 import CallButton from '../CallButton/CallButton';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useEffect } from 'react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Advantages() {
+
+    useEffect(() => {
+        // Анимация для первого контейнера
+        const tlOne = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".container-adv-one",
+                start: "top 80%", // Начало анимации
+                end: "bottom 20%", // Конец анимации
+                toggleActions: "play none none reverse", // Действия при прокрутке
+            }
+        });
+
+        tlOne.fromTo(".container-adv-one", 
+            { y: 100, opacity: 0 }, // Начальное состояние
+            { y: 0, opacity: 1, duration: 1 } // Конечное состояние
+        );
+
+        // Анимация для второго контейнера
+        const tlTwo = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".container-adv-two",
+                start: "top 80%", // Начало анимации
+                end: "bottom 20%", // Конец анимации
+                toggleActions: "play none none reverse", // Действия при прокрутке
+            }
+        });
+
+        tlTwo.fromTo(".container-adv-two", 
+            { y: 100, opacity: 0 }, // Начальное состояние
+            { y: 0, opacity: 1, duration: 1 } // Конечное состояние
+        );
+
+        return () => {
+            tlOne.kill(); // Удаляем таймлайн при размонтировании компонента
+            tlTwo.kill(); // Удаляем таймлайн для второго контейнера
+        };
+    }, []);
+
     return(
         <div>
 <div className="effectOne-position">
