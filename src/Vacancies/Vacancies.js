@@ -41,8 +41,8 @@ function Vacancies (){
     </div>
     <p className="type">Судовой повар</p>
     <p className="type">Тип судна: Генеральные грузы</p>
-    <p className="type">Дата посадки: 30/10/2024</p>
-    <p className="type">Зарплата : 130 000 рублей</p>
+    <p className="type">Дата посадки: 24/12/2024</p>
+    <p className="typeZP">Зарплата : 130 000 рублей</p>
 </div>
 
 <div className="vac">
@@ -51,8 +51,8 @@ function Vacancies (){
     </div>
     <p className="type">2 механик</p>
     <p className="type">Тип судна: Генеральные грузы</p>
-    <p className="type">Дата посадки: 30/10/2024</p>
-    <p className="type">Зарплата : 240 000 рублей</p>
+    <p className="type">Дата посадки: 23/12/2024</p>
+    <p className="typeZP">Зарплата : 240 000 рублей</p>
 </div>
 
 <div className="vac">
@@ -61,8 +61,8 @@ function Vacancies (){
     </div>
     <p className="type">Матросы 1,2 класса</p>
     <p className="type">Тип судна: Генеральные грузы</p>
-    <p className="type">Дата посадки: 30/10/2024</p>
-    <p className="type">Зарплата : 110 000 рублей</p>     
+    <p className="type">Дата посадки: 30/12/2024</p>
+    <p className="typeZP">Зарплата : 110 000 рублей</p>     
   </div>
 
 </div>

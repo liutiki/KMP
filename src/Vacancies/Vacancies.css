@@ -45,8 +45,8 @@ body{
     color:black;
     font-size: 23px;
     border:1px solid grey;
-    border-radius: 10px;
     width:25%;
+    background-color: rgba(228, 213, 195, 0.574);
     }
 
 .picture-position-vacancy{
@@ -55,17 +55,23 @@ body{
    }
 
 .picture{
-    width:350px;
-    border-radius: 15px;
+    width:100%;
+   
 }
 
 
 .question{
     font-size: 15px;
-    color:#908787;
+    color:#908787f8;
     font-size: 23px;
 }
 
 .type{
-    
+    font-family: "Manrope", sans-serif;
+    font-size: 23px;
 }
+
+.typeZP{
+    background-color: rgba(173, 245, 173, 0.715);
+}
+
