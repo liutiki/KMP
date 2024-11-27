@@ -54,9 +54,9 @@ function Home() {
             <div className="animate-section">
                 <AboutCompany />
             </div>
-            <div className="animate-section">
+           
                 <AdvantagesGsap />
-            </div>
+          
             <div className="animate-section">
                 <Advantages />
             </div>
