@@ -46,13 +46,13 @@ margin-right: 10px;
     .safety{
         font-family: "Manrope", sans-serif;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 15px;
         color:#4a4c4e;
         line-height: 28px;
     }
 
     .check{
-        width:30px;
+        width:25px;
         margin-right: 10px;
         }
 
@@ -61,6 +61,11 @@ margin-right: 10px;
             flex-direction: column;
             margin-left: 5%;
             margin-top: 5%;
+        }
+
+
+        .btn-call-second{
+            width:200px;
         }
 
 }

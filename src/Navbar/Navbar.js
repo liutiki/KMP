@@ -27,7 +27,7 @@ function Custombar() {
                 <Nav className="nav justify-content-end flex-grow-1 pe-3">
                 <Nav.Link as={Link} to="/Company" className="white-text">О компании</Nav.Link>
                 <Nav.Link as={Link} to="/Service" className="white-text">Услуги</Nav.Link> 
-                <Nav.Link as={Link} to="/Vacancies" className="white-text">Вакансии на флот</Nav.Link>
+                <Nav.Link as={Link} to="/Vacancies" className="white-text">Вакансии</Nav.Link>
                 <Nav.Link as={Link} to="/Contacts"className="white-text">Контакты</Nav.Link>
                 </Nav>
                 

@@ -44,12 +44,12 @@ function ContactCall() {
                  action="https://formspree.io/f/xgegyzoo" 
                  method="POST">
                     <label className="textName">
-                        ФИО*:
-                        <input type="text" name="name" required />
+                        Имя*:
+                        <input  className="input-text" type="text" name="name" required />
                     </label>
                     <label className="textName">
                         Email*:
-                        <input type="email" name="email" required />
+                        <input className="input-email" type="email" name="email" required />
                     </label>
                     <label className="textName">
                         Телефон*:

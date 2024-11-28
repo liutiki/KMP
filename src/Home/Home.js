@@ -11,6 +11,7 @@ import Footer from "../Footer/Footer";
 import NameLogo from "../NameLogo/NameLogo";
 import NewTitul from "../NewTitul/NewTitul";
 import './Home.css';
+import PhotoSaint from '../PhotoSaint/PhotoSaint';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,7 +48,7 @@ function Home() {
      
       
                 <NewTitul />
-           
+           <PhotoSaint />
             <div className="animate-section">
                 <NameLogo />
             </div>

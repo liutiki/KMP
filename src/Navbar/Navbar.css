@@ -4,6 +4,34 @@
     z-index: 1; 
   }
 
+  .white-text{
+    color:rgb(13, 2, 2) !important;
+    margin-right: 30px;
+    }
+
+  .nav{
+
+    font-size: 21px;
+    font-family: "Manrope", sans-serif;
+    margin-left:800px;
+    font-weight: 300;
+  }
+
+
+  @media all and (max-width: 500px) {
+
+    .contactsNewTop{
+        position: relative; 
+  
+      }
+
+
+      .white-text{
+        color:black !important;
+      }
+
+  }
+
 
 
 

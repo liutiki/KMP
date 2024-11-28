@@ -9,8 +9,7 @@
           
           <div>
             <div className="vesselType-position">
-               <p className="vesselType">Флот</p>
-               <p className="vesselType">Калининградского Морского Пароходства</p>
+               <p className="vesselType">ФЛОТ В УПРАВЛЕНИИ</p>
                <p className="moreThan">Более 10 000 тонн общий дедвейт флота</p>
             </div>
             

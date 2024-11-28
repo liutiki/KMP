@@ -36,14 +36,12 @@ function NewTitul(){
     <p className="seaWay">Грузоперевозки</p>
    
     <div className="seaWayWork-position">
-  
       <p className="seaWayWork">Работаем по направлению</p>
       <p className="seaWayWork">Калининград - Санкт-Петербург</p>   
-      <p className="seaWayOffice">Представительства в Калининграде и Санкт-Петербурге</p>   
-      <button className="btnCall-top">Связаться с нами</button> 
+      <p className="seaWayOffice">Представительства в Калининграде и Санкт-Петербурге</p>
+      <button className="btnCall-top">Связаться с нами</button>
     </div>
-   
-  
+     
     </div>
 
    

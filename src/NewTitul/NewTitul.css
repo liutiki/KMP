@@ -87,7 +87,6 @@ margin-top: 8%;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     line-height: 13px;
-
   }
 
   .seaWayOffice{
@@ -105,7 +104,7 @@ margin-top: 8%;
 
     
     .seaWay-position{
-        margin-top: 55%;
+        margin-top: 35%;
           }
         
     
@@ -123,20 +122,18 @@ margin-top: 8%;
            
       .btnCall-top{
         padding:6px;
-        font-size: 12px;
+        font-size: 13px;
         width:150px;
         border-radius: 5px;
-        margin-top: 15px;
-      }
+        }
     
       .btnCall-top:hover{
         font-size: 11px;
-      }
+      } 
     
-    
-    
+
       .your-position{
-    margin-top:25%;
+        margin-top:45%;
       }
     
       .your{
@@ -144,35 +141,33 @@ margin-top: 8%;
         font-size: 36px;
         font-family: "Manrope", sans-serif;
         font-weight: 600;
-        line-height: 43px;
+        line-height: 23px;
       }
     
     
       .seaWay{
-        font-size: 26px;
+        font-size: 23px;
         font-weight: 800;
-        line-height: 13px;
+        line-height: 5px;
       }
     
       .seaWayWork-position{
-        margin-top: 20%;
-      }
+        margin-top: 10%;
+        line-height: 16px;
+       }
     
       .seaWayWork{
         color:white;
-        font-size: 16px;
-        font-family: "Manrope", sans-serif;
+        font-size: 12px;
         font-weight: 400;
-        line-height: 15px;
+        line-height: 5px;
       }
-      .seaWayOffice{
+      .seaWayOffice {
         color:white;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
-        line-height: 43px;
-        line-height: 15px;
+        line-height: 12px;
       }
-
 
 
   }

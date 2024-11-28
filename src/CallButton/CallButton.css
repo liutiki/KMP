@@ -149,7 +149,132 @@ cursor: pointer;
 }
 
 
+@media all and (max-width: 500px){
 
+    .Ourstaf{
+       font-size: 25px;
+    }
+    
+    .buttontlf{
+        width:65%;
+        font-size: 14px;
+     }
+       
+    
+        /* Основные стили для кнопки */
+    .button {
+        background-color: #4CAF50; /* Зеленый цвет */
+        color: white; /* Белый текст */
+        padding: 10px 20px; /* Отступы */
+        border: none; /* Без границы */
+        border-radius: 5px; /* Закругленные углы */
+        cursor: pointer; /* Курсор в виде указателя */
+        font-size: 16px; /* Размер шрифта */
+        transition: background-color 0.3s; /* Плавный переход */
+    }
+    
+ 
+    .ReactModal__Content {
+        top: 3%;
+        left: 3%;
+        margin-bottom: 10%;
+        transform:translate(30%, 5%) ; /* Центрирование окна */
+        border-radius: 10px; /* Закругленные углы */
+        padding: 20px; /* Отступы внутри окна */
+        width: 60%; /* Ширина модального окна */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Тень под окном */
+        height:90vh;
+    }
+    
+    
+    /* Стили для меток и полей ввода */
+    label {
+        margin-left: 40px;
+        margin-bottom: 10px; /* Отступы между элементами */
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        color:rgb(80, 78, 78);
+    }
+    
+    .lab{
+        margin-right: 40%;
+    }
+    
+    input[type="text"],
+    input[type="email"]
+    
+    {
+        margin-left: 10%;
+        padding: 10px; /* Отступы внутри полей */
+        border: 1px solid #ccc; /* Светлая граница */
+        border-radius: 5px; /* Закругленные углы */
+        margin-top: 5px; /* Отступ сверху */
+        width:50%;
+    }
+    
+    .messageText{
+        margin-left: 10%;
+        padding: 40px; /* Отступы внутри полей */
+        border: 1px solid #ccc; /* Светлая граница */
+        border-radius: 5px; /* Закругленные углы */
+        margin-top: 5px; /* Отступ сверху */
+        width:80%;
+        color: rgb(13, 13, 13); 
+    }
+    
+    .textarea {
+        padding: 10px; /* Отступы внутри полей */
+        border: 1px solid #ccc; /* Светлая граница */
+        border-radius: 5px; /* Закругленные углы */
+        margin-top: 5px; /* Отступ сверху */ 
+    }
+    
+    
+    
+    .btnCall-position{
+        margin-top: 7%;
+        margin-bottom: 3%;
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;  
+    }
+    
+    .btnCall{
+    background-color: #2d0fefda;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-size: 19px;
+    width:70%;
+    padding:10px;
+    cursor: pointer; 
+    }
+    
+    .btnCall:hover{
+        background-color: #2707f6;
+        color:#f5f7f8;
+    }
+    
+    
+    .closeBtn-list-position{
+        display:flex;
+        justify-content: flex-end;
+       }
+    
+    .closeBtn-list{
+        width:40px;
+      }
+    
+    .send{
+        font-family: "Manrope", sans-serif;
+        color:#0c2739;
+        font-size: 18px;
+    }
+    
+
+
+}
 
 
 

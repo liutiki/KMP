@@ -26,7 +26,6 @@
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 10%;
-   
     }
 
 .image{
@@ -69,6 +68,13 @@ margin-bottom: 5%;
 
 @media all and (max-width: 500px){
 
+  .moreThan{
+    color:#908787;
+    font-size: 17px;
+    line-height: 12px;
+  }
+
+
   .vesselType{
     font-size: 23px;
       }
@@ -81,10 +87,13 @@ margin-bottom: 5%;
   
   .cardPosition{
            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+
        }
   
   .image{
-      width:180px;
+      width:310px;
       }
   
     
@@ -96,5 +105,10 @@ margin-bottom: 5%;
   .action{
       font-size: 12px;
   }
+
+  .card{
+margin-top: 1%;
+margin-bottom: 1%;
+    }
 
 }

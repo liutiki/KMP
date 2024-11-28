@@ -20,7 +20,7 @@ function ExpTop(){
 
         <div className="reliability">
         <p className="number">3</p>
-        <p className="effect">судна во фрахте для успешной реализации наших логистических решений. </p>
+        <p className="effect">судна в управлении для успешной реализации наших логистических решений. </p>
             </div>
     </div>
 
