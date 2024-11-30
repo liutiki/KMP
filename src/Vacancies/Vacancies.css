@@ -75,3 +75,52 @@ body{
     background-color: rgba(173, 245, 173, 0.715);
 }
 
+ 
+@media all and (max-width: 500px){
+
+ 
+ .Vacancy-Top{
+     font-size: 27px; 
+ }
+ 
+ 
+ .vacancies-position{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+    }
+ 
+ .vac{
+     font-size: 18px;
+     width:65%;
+     }
+ 
+ .picture-position-vacancy{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+    }
+ 
+ .picture{
+     width:100%;
+ }
+ 
+ 
+ .question{
+        font-size: 15px;
+ }
+ 
+ .type{
+     font-size: 15px;
+ }
+ 
+ 
+.Top-position{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    line-height: 13px;
+    width:300px;
+}
+
+}

@@ -4,31 +4,48 @@
     z-index: 1; 
   }
 
-  .white-text{
-    color:rgb(13, 2, 2) !important;
-    margin-right: 30px;
-    }
+
 
   .nav{
-
     font-size: 21px;
     font-family: "Manrope", sans-serif;
     margin-left:800px;
     font-weight: 300;
   }
 
-
+  .me-auto{
+   display:none;
+}
+  
   @media all and (max-width: 500px) {
 
-    .contactsNewTop{
-        position: relative; 
+ 
+.contactsNewTop{
+    position: relative; 
+
+  }
+
+  .toggle-right {
+    margin-left:auto; /* Отодвигает кнопку к правому краю */
+      }
+
+.me-auto{
+    display:block;
+    line-height: 8px;
+    font-size: 16px;
+    color:#201E43;;
+    font-family: "Manrope", sans-serif;
+    font-weight:800;
+    text-decoration: none;
+}
+
+.kmp-Top{
+    display:flex;
+    flex-direction:column;
+
+}
+
   
-      }
-
-
-      .white-text{
-        color:black !important;
-      }
 
   }
 

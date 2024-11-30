@@ -7,7 +7,7 @@ function ExpTop(){
 
         <div className="reliability">
         <img className="photoOneShip"src={photoOne} alt="photoOne"/>
-        <p className="effect">Hадежность и эффективность <br/>в морских перевозках.</p>
+        <p className="effect">Перевозка различных видов грузов <br/>без санкционных ограничений</p>
         <div className="vertical-line" />
         </div>
 
@@ -19,7 +19,7 @@ function ExpTop(){
         </div>
 
         <div className="reliability">
-        <p className="number">3</p>
+        <p className="numberThree">3</p>
         <p className="effect">судна в управлении для успешной реализации наших логистических решений. </p>
             </div>
     </div>

@@ -19,8 +19,8 @@ function NewTitul(){
 
     return(
         <div className="titul-container">
-            <div className="contactsNewTop">
           
+          <div className="contactsNewTop">
                <Custombar/>
             </div>
         
@@ -46,10 +46,7 @@ function NewTitul(){
 
    
  
-    <div className="your-position">
-    <p className="your"></p>
-    <p className="your"></p>    
-    </div>
+ 
    
 </div>
 </div>

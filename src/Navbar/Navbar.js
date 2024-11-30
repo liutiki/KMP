@@ -8,11 +8,15 @@ import './Navbar.css';
 function Custombar() {
   return (
     <>
-      {[ 'sm', ].map((expand) => (
+      {['sm'].map((expand) => (
         <Navbar key={expand} expand={expand} className="body-tertiary mb-3">
           <Container fluid>
-            <Navbar.Brand href="#"></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <div className="kmp-Top">
+              <Navbar.Brand href="#" className="me-auto">Калининградское</Navbar.Brand>
+              <Navbar.Brand href="#" className="me-auto">Морское Пароходство</Navbar.Brand>
+            </div>
+            
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="toggle-right" />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -25,12 +29,11 @@ function Custombar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="nav justify-content-end flex-grow-1 pe-3">
-                <Nav.Link as={Link} to="/Company" className="white-text">О компании</Nav.Link>
-                <Nav.Link as={Link} to="/Service" className="white-text">Услуги</Nav.Link> 
-                <Nav.Link as={Link} to="/Vacancies" className="white-text">Вакансии</Nav.Link>
-                <Nav.Link as={Link} to="/Contacts"className="white-text">Контакты</Nav.Link>
+                  <Nav.Link as={Link} to="/Company">О компании</Nav.Link>
+                  <Nav.Link as={Link} to="/Service">Услуги</Nav.Link> 
+                  <Nav.Link as={Link} to="/Vacancies">Вакансии</Nav.Link>
+                  <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
                 </Nav>
-                
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
@@ -41,3 +44,4 @@ function Custombar() {
 }
 
 export default Custombar;
+

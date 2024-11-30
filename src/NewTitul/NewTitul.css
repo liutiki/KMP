@@ -24,12 +24,9 @@
     z-index: 1; 
   }
 
-  /*
-  .contactsNewTop{
-    position: absolute; 
-    z-index: 1; 
-  }
-  */
+  
+ 
+  
 
   .btnCall-top{
     background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
@@ -101,10 +98,13 @@ margin-top: 8%;
  
   @media all and (max-width: 500px){
 
-
+    .shipTitul{
+        height:30vh;
+        width:100%;
+        }
     
     .seaWay-position{
-        margin-top: 35%;
+        margin-top: 5%;
           }
         
     
@@ -116,7 +116,7 @@ margin-top: 8%;
     }
     
     .delivery-position {
-        top: 70%;
+        top: 60%;
         left: 40%; 
       }
            

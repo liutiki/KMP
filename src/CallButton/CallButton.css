@@ -160,19 +160,6 @@ cursor: pointer;
         font-size: 14px;
      }
        
-    
-        /* Основные стили для кнопки */
-    .button {
-        background-color: #4CAF50; /* Зеленый цвет */
-        color: white; /* Белый текст */
-        padding: 10px 20px; /* Отступы */
-        border: none; /* Без границы */
-        border-radius: 5px; /* Закругленные углы */
-        cursor: pointer; /* Курсор в виде указателя */
-        font-size: 16px; /* Размер шрифта */
-        transition: background-color 0.3s; /* Плавный переход */
-    }
-    
  
     .ReactModal__Content {
         top: 3%;
@@ -181,7 +168,7 @@ cursor: pointer;
         transform:translate(30%, 5%) ; /* Центрирование окна */
         border-radius: 10px; /* Закругленные углы */
         padding: 20px; /* Отступы внутри окна */
-        width: 60%; /* Ширина модального окна */
+        width: 40%; /* Ширина модального окна */
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Тень под окном */
         height:90vh;
     }

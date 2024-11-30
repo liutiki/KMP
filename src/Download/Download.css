@@ -18,3 +18,18 @@
     background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
     background-color:rgb(46, 35, 171) /*this your primary color*/
 }
+
+
+@media all and (max-width: 500px){
+
+      
+    .btn-download{
+        font-size: 17px;
+        width:220px;
+       padding:5px;
+       }
+    
+ 
+    
+
+}

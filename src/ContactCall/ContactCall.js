@@ -43,18 +43,18 @@ function ContactCall() {
                  className="form-container" 
                  action="https://formspree.io/f/xgegyzoo" 
                  method="POST">
-                    <label className="textName">
-                        Имя*:
-                        <input  className="input-text" type="text" name="name" required />
-                    </label>
-                    <label className="textName">
-                        Email*:
-                        <input className="input-email" type="email" name="email" required />
-                    </label>
-                    <label className="textName">
-                        Телефон*:
-                        <input type="phone" name="phone" required />
-                    </label>
+                   <label htmlFor="email"></label>
+
+<input className="inputName" placeholder="Ваше имя" id="name" type="name" name="name" />
+
+
+<input className="inputTel" placeholder="Ваш телефон" id="phone" type="phone" name="phone" />
+
+
+<textarea className="inputMes" placeholder="Сообщение" id="message" name="message" />
+
+
+
                                  
                    
                     <div className="btnCall-position">

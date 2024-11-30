@@ -23,7 +23,7 @@ function Vacancies (){
     return(
         <div>
 <ContactsTop />
-<Custombar />  
+  <Custombar />
 <div className="Top-position">
 <p className="Vacancy-Top" >Вакансии на флот</p>
 <img src={blueWave}  width="250px" alt="bluewave"/>

@@ -1,7 +1,8 @@
 .modalQuestion-container{
-    background-color: #202962;
-    width:70%;
+    background-color: transparent;
+    width:60%;
     border-radius: 20px;
+    border:1px solid grey;
 }
 
 .way{
@@ -12,7 +13,7 @@ margin-bottom: 10%;
 }
 
 .connectWithUs{
-color:white;
+color:rgb(6, 6, 6);
 font-family: "Manrope", sans-serif;
 font-size: 36px;
 line-height: 40px;
@@ -27,7 +28,7 @@ line-height: 40px;
 }
 
 .fillForm{
-    color:white;
+    color:rgb(19, 18, 18);
     font-family: "Manrope", sans-serif;
     font-size: 18px;
     line-height: 40px;  
@@ -36,47 +37,38 @@ line-height: 40px;
 .form-container {
     display: flex;
     flex-direction: column; 
+    align-items: center;
 }
 
 
-.textName {
-    color:white;
-    margin-bottom: 13px; /* Отступы между элементами */
-    font-size: 17px;
-    margin-left: 15%;
-}
-
-
-input[type="text"]
-{
-    padding: 10px;
-    border: 1px solid #ccc; 
+.inputName{
+    width:80%;
+    background-color: aliceblue;
+    border:none;
+    margin-bottom: 15px; /* Отступ между полями ввода */
+    padding: 10px; /* Внутренний отступ для удобства ввода */
     border-radius: 5px;
-    margin-top: 5px;
-    width:50%; 
-    margin-left: 6%;
 }
 
-input[type="email"]
-{
-    padding: 10px; /* Отступы внутри полей */
-    border: 1px solid #ccc; /* Светлая граница */
-    border-radius: 5px; /* Закругленные углы */
-    margin-top: 5px; /* Отступ сверху */
-    width:50%;
-    }
+.inputTel{
+    width:80%;
+    background-color: aliceblue;
+    border:none;
+    margin-bottom: 15px; /* Отступ между полями ввода */
+    padding: 10px; /* Внутренний отступ для удобства ввода */
+    border-radius: 5px; 
+}
 
+.inputMes{
+    width:80%;
+    height:30vh;
+    background-color: aliceblue;
+    border:none;
+    margin-bottom: 15px; /* Отступ между полями ввода */
+    padding: 10px; /* Внутренний отступ для удобства ввода */
+    border-radius: 5px; 
+}
 
-input[type="phone"]
-
-{
-    padding: 10px; /* Отступы внутри полей */
-    border: 1px solid #ccc; /* Светлая граница */
-    border-radius: 5px; /* Закругленные углы */
-    margin-top: 5px; /* Отступ сверху */
-    width:50%;
-    margin-left: 7%;
-    }
 
 
 
@@ -120,68 +112,24 @@ cursor: pointer;
 
 
     .modalQuestion-container{
-        background-color: #4652a0;
-        width:95%;
+        width:75%;
+        border:none;
      }
     
-    .connectWithUs-position{
-        margin-left: 10px;
+     .fillForm{
+     display:none;  
     }
       
     .connectWithUs{
     font-size: 26px;
-    line-height: 40px;
+    line-height: 30px;
     }
     
-    .fillForm{
-        font-size: 16px;
-        line-height: 18px;  
-        margin-left: 5px;
-    }
-    
+     
     .form-container {
         flex-direction: column; 
     }
-    
-    
-    .textName {
-        
-        margin-bottom: 11px; /* Отступы между элементами */
-        font-size: 15px;
-        width:500px;
-        margin-left: 3%;
-      }
-    
-    .input-text{
-        width:80%;
-        padding:10px;
-        border-radius: 5px;
-        margin-top: 5px; 
-    }
-
-    input[type="phone"]{
      
-        padding:10px;
-        border-radius: 5px;
-        margin-top: 5px; 
-    
-     }
-
-    
-    
-    input[type="phone"]
-    
-    {
-        padding: 10px; /* Отступы внутри полей */
-        border: 1px solid #ccc; /* Светлая граница */
-        border-radius: 5px; /* Закругленные углы */
-        margin-top: 5px; /* Отступ сверху */
-        width:50%;
-        margin-left: 1%;
-        }
-    
-    
-    
     
     .btnCall-position{
     margin-top: 7%;
@@ -189,19 +137,30 @@ cursor: pointer;
     margin-left: 10px; 
     }
     
-    
-    
+        
     .btnCall:hover{
         background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
         background-color:rgb(46, 35, 171); /*this your primary color*/
         color:#f5f7f8;
     }
-    
-    
+       
     
     .press-Send{
         font-size: 14px;
     }
 
+    .inputName{
+        width:90%;
+        }
+    
+    .inputTel{
+        width:90%;
+       }
+    
+    .inputMes{
+        width:90%;
+        height:20vh;
+            }
+    
 
 }

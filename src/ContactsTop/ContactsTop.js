@@ -28,7 +28,7 @@ function ContactsTop(){
     <img className="mail" src={mail} alt="logo-kmp" />
     <a className="ahref-mail"href="mailto:info@kdsc.ru">info@kdsc.ru</a></p>
 
-    <p><a href="https://web.telegram.org/k/#-2322689377" target="_blank" rel="noopener noreferrer">
+    <p><a href="https://t.me/kdsc39" target="_blank" rel="noopener noreferrer">
     <img className="telegram" src={telegram} alt ="icon" /></a></p>
     </div>
     </div>

@@ -8,7 +8,7 @@ import Custombar from "../Navbar/Navbar";
 function Contacts(){
     return(<div>
               <ContactsTop />
-              <Custombar />  
+   <Custombar />
          <img className="contactTop"src={PhotoTop} alt="contactsTop"/>
 
          <div className="adress-container"> 

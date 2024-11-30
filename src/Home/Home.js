@@ -44,11 +44,11 @@ function Home() {
     return (
         <div>
          
-                <ContactsTop />
+         <ContactsTop />
      
       
-                <NewTitul />
-           <PhotoSaint />
+         <NewTitul />
+         <PhotoSaint />
             <div className="animate-section">
                 <NameLogo />
             </div>
