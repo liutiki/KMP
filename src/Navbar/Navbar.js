@@ -14,7 +14,7 @@ function Custombar() {
             <div className="kmp-Top">
               <Navbar.Brand href="#" className="me-auto">Калининградское</Navbar.Brand>
               <Navbar.Brand href="#" className="me-auto">Морское Пароходство</Navbar.Brand>
-            </div>
+              </div>
             
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="toggle-right" />
             <Navbar.Offcanvas

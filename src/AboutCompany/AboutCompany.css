@@ -109,7 +109,7 @@ justify-content: center;
         .textAbout{
             font-family: "Manrope", sans-serif;
             font-optical-sizing: auto;
-           font-size:16px;
+           font-size:15px;
            font-weight:400;
            line-height: 32px;
            color:white;
@@ -161,4 +161,36 @@ justify-content: center;
 
 
 
+}
+
+@media all and (max-width: 375px){
+ 
+              
+        .PortPhoto{
+            width:50%;  
+        }
+        
+        .Text-position{
+        display:flex;
+        justify-content: center;
+        }
+        
+        .textAbout{
+            
+           font-size:14px;
+           margin-left: 5%;
+           margin-right: 3%;
+        }
+        
+            
+        
+        .btnAbout{
+             font-size:15px;
+        }
+
+             
+        .AboutTop{
+           font-size: 22px;
+           }
+  
 }

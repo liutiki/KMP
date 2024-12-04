@@ -102,7 +102,7 @@
 
 
 
-@media all and (max-width: 375px){
+@media all and (max-width: 500px){
 
 
         .topInfo {
@@ -113,12 +113,9 @@
         }
     
         .name-position{
-       
-            margin-top: 2%;
-            display:flex;
-            flex-direction: column;
-            line-height: 9px;
-        }
+                 
+            display:none;
+                 }
     
         .kaliningrad{
             display:none;
@@ -134,6 +131,83 @@
     
     
         .logo-position {
+            display:none;
+            margin-bottom: 2px;
+        }
+    
+        .tel {
+            font-size: 16px;
+            margin-right: 10px;
+            display:none;
+        }
+    
+        .KMP {
+            display:none;
+            font-size: 21px;
+            color: #201E43;
+            font-weight: 800;
+            text-decoration: none;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    
+        .logo {
+            display:none;
+            width: 40px;
+            margin-right: 10px;
+        }
+    
+        .ahref-mail {
+            font-size: 16px;
+        }
+    
+        .telegram {
+            display:none;
+            width: 25px;
+            margin-left: 10px;
+        }
+    
+        .tlf{
+            display:none;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 20px;
+        }
+        
+    } 
+    
+
+    @media all and (max-width: 375px){
+
+
+        .topInfo {
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+    
+        .name-position{
+                 
+            display:none;
+                 }
+    
+        .kaliningrad{
+            display:none;
+            line-height: 4px;
+            font-size: 19px;
+               }
+        
+        .sea{
+            display:none;
+            font-size: 17px;
+            line-height: 7px;
+             }
+    
+    
+        .logo-position {
+            display:none;
             margin-bottom: 2px;
         }
     

@@ -88,7 +88,7 @@ body{
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     
+
     }
  
  .vac{
@@ -119,8 +119,14 @@ body{
 .Top-position{
     margin-bottom: 5%;
     margin-top: 5%;
-    line-height: 13px;
-    width:300px;
+    display:flex;
+    flex-direction: column;
+
 }
+
+}
+
+@media all and (max-width: 375px){
+
 
 }

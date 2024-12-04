@@ -32,7 +32,7 @@
 .me-auto{
     display:block;
     line-height: 8px;
-    font-size: 16px;
+    font-size: 11px;
     color:#201E43;;
     font-family: "Manrope", sans-serif;
     font-weight:800;
@@ -50,7 +50,14 @@
   }
 
 
+  @media all and (max-width: 375px) {
 
+    .me-auto{
+        line-height: 8px;
+        font-size: 5px;
+         }
+
+  }
 
 
 
