@@ -12,8 +12,8 @@ function Custombar() {
         <Navbar key={expand} expand={expand} className="body-tertiary mb-3">
           <Container fluid>
             <div className="kmp-Top">
-              <Navbar.Brand href="#" className="me-auto">Калининградское</Navbar.Brand>
-              <Navbar.Brand href="#" className="me-auto">Морское Пароходство</Navbar.Brand>
+              <Navbar.Brand href="/" className="me-auto">Калининградское</Navbar.Brand>
+              <Navbar.Brand href="/" className="me-auto">Морское Пароходство</Navbar.Brand>
               </div>
             
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="toggle-right" />
@@ -24,7 +24,8 @@ function Custombar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Калининградское морское пароходство
+                 <p className="me-offcanvas">Калининградское</p>
+                 <p className="me-offcanvas">Морское Пароходство</p>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

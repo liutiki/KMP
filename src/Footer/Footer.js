@@ -29,6 +29,7 @@ const Footer =() => {
             </ul>
                           </div> 
                           <div className="copyright">
+                            <p>Политика </p>
                           <p>Copyright 2024 OOO "KMP"</p>
                           </div>
         </div>

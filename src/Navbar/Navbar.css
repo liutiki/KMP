@@ -45,17 +45,35 @@
 
 }
 
-  
+ 
+.nav{
+    margin:0;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+  } 
+
+  .me-offcanvas{
+    line-height: 8px;
+    font-size: 15px;
+     }
 
   }
 
 
   @media all and (max-width: 375px) {
 
-    .me-auto{
+    .me-offcanvas{
         line-height: 8px;
-        font-size: 5px;
+        font-size: 15px;
          }
+
+
+    .me-auto{
+            display:block;
+            line-height: 11px;
+            font-size: 9px;
+            
+        }
 
   }
 
