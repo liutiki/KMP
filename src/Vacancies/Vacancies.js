@@ -7,6 +7,7 @@ import { gsap } from 'gsap';
 import Download from "../Download/Download";
 import blueWave from "./blueWaveOne.png";
 import Custombar from "../Navbar/Navbar";
+import Sout from "../Sout/Sout";
 
 
 
@@ -72,7 +73,7 @@ function Vacancies (){
 </div>
 
 
-
+<Sout/>
 
 <Footer />
         </div>

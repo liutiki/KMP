@@ -42,8 +42,13 @@
 
 
 .copyright{
-    font-size:21px;
-  
+    font-size:15px;
+   display:flex;
+   flex-direction: column;
+align-items: center;
+   color:white;
+   font-family: "Manrope", sans-serif;
+   margin-bottom: 5%;
 }
 
 @media all and (max-width: 500px) {

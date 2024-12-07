@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
-import { Document, Page } from '@react-pdf/renderer';
-import soutPdf from './Sout.pdf';
+import SoutOne from './Sout_one.jpg';
+import SoutTwo from './Sout_two.jpg';
 import './Sout.css';
 
 const Sout = () => {
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
   const [isExpanded, setIsExpanded] = useState(false);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
@@ -19,31 +13,20 @@ const Sout = () => {
   return (
     <div>
       <div onClick={toggleExpand} style={{ cursor: 'pointer', marginBottom: '10px' }}>
-        {isExpanded ? 'Скрыть' : 'Показать'} PDF
+        {isExpanded ? 'Скрыть' : 'Показать'} изображение
       </div>
       {isExpanded && (
-        <div style={{ width: '100%', height: '600px', overflow: 'auto' }}>
-          <Document
-            file={soutPdf}
-            onLoadSuccess={onDocumentLoadSuccess}
-          >
-            {/* Отображаем все страницы */}
-            {Array.from(new Array(numPages), (el, index) => (
-              <Page key={`page_${index + 1}`} pageNumber={index + 1} />
-            ))}
-          </Document>
+        <div style={{ width: '100%', height: 'auto', overflow: 'auto' }}>
+          <img src={SoutOne} alt="Описание изображения" style={{ width: '100%', height: 'auto' }} />
+          <img src={SoutTwo} alt="Описание изображения" style={{ width: '100%', height: 'auto' }} />
         </div>
-      )}
-      {isExpanded && (
-        <p>
-          Страница {pageNumber} из {numPages}
-        </p>
       )}
     </div>
   );
 };
 
 export default Sout;
+
 
 
 

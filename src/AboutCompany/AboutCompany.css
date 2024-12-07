@@ -104,17 +104,15 @@ justify-content: center;
         .Text-position{
         display:flex;
         justify-content: center;
+        max-width:90%;
         }
         
         .textAbout{
-            font-family: "Manrope", sans-serif;
-            font-optical-sizing: auto;
-           font-size:15px;
-           font-weight:400;
-           line-height: 32px;
-           color:white;
-           margin-left: 5%;
-        }
+           font-optical-sizing: auto;
+           font-size:134x;
+           font-weight:300;
+           line-height: 32px;        
+           }
         
         .btn-position-about{
         margin-top: 5%;

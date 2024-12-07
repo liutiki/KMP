@@ -25,11 +25,11 @@ const Footer =() => {
                 <li className="footer-rest">Мы есть в telegram</li>
                 <a href="https://web.telegram.org/k/#-2322689377" target="_blank" rel="noopener noreferrer">
                 <img className="telegram" src={telegram} alt ="icon" /></a>
-               
+                <button>Политика обработки персональных данных</button>
             </ul>
                           </div> 
                           <div className="copyright">
-                            <p>Политика </p>
+                        
                           <p>Copyright 2024 OOO "KMP"</p>
                           </div>
         </div>

@@ -34,6 +34,7 @@ function Custombar() {
                   <Nav.Link as={Link} to="/Service">Услуги</Nav.Link> 
                   <Nav.Link as={Link} to="/Vacancies">Вакансии</Nav.Link>
                   <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
+
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

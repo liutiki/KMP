@@ -49,24 +49,24 @@ function Home() {
       
          <NewTitul />
          <PhotoSaint />
-            <div className="animate-section">
+         <div className="animate-section">
                 <NameLogo />
             </div>
             <div className="animate-section">
                 <AboutCompany />
             </div>
            
-                <AdvantagesGsap />
+            <AdvantagesGsap />
           
             <div className="animate-section">
-                <Advantages />
-            </div>
-            <div className="animate-section">
-                <Flot />
-            </div>
-            <div className="animate-section">
-                <ContactCall />
-            </div>
+              <Advantages />
+          </div>
+          <div className="animate-section">
+              <Flot />
+          </div>
+          <div className="animate-section">
+              <ContactCall />
+          </div>
       
                 <Footer />
             
