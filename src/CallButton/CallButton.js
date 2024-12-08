@@ -27,7 +27,7 @@ function CallButton() {
                 contentLabel="Contact Form"
             >
               <div className="closeBtn-list-position">
-                    <button onClick={closeModal}><img className="closeBtn-list"src={close} alt="close"/></button>
+                    <button className="checkClose"onClick={closeModal}><img className="closeBtn-list"src={close} alt="close"/></button>
               </div>
                  
                
@@ -37,24 +37,19 @@ function CallButton() {
                 method="POST">
                      
                     <label>
-                        ФИО*
-                        <input type="text" name="name" required />
-                    </label>
-                    <label>
-                        Email*
-                        <input type="email" name="email" required />
-                    </label>
-                    <label className="lab">
-                        Телефон*
-                    <input type="text" name="phone" required /> 
+                       
+<input className="inputName" placeholder="Ваше имя" id="name" type="name" name="name" />
+
+<input className="inputName" placeholder="Компания" id="name" type="name" name="name" />
+
+<input className="inputTel" placeholder="Ваш телефон" id="phone" type="phone" name="phone" />
+
+
+<textarea className="inputMes" placeholder="Сообщение" id="message" name="message" />
                     </label>
                    
 
-                    <label>
-                        Ваш вопрос
-                        <textarea className="messageText"name="message" required>Текст сообщения</textarea>
-                    </label>
-                   
+                                     
                    
                     <div className="btnCall-position">
                     <button className="btnCall" type="submit">Отправить</button>

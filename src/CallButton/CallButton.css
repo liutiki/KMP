@@ -5,6 +5,21 @@
     font-size: 31px;
 }
 
+
+.closeBtn-list-position{
+    display:flex;
+    justify-content: flex-end;
+   }
+
+.closeBtn-list{
+    width:40px;
+  }
+
+.checkClose{
+    border:none;
+    background-color: transparent;
+}
+
 .buttontlf{
     background-color:#134B70;
     padding:12px;
@@ -18,55 +33,39 @@
 
 .buttontlf:hover{
     background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
-    background-color:rgb(46, 35, 171) /*this your primary color*/
+    background-color:rgb(46, 35, 171) 
  }
 
 
-
-    /* Основные стили для кнопки */
-.button {
-    background-color: #4CAF50; /* Зеленый цвет */
-    color: white; /* Белый текст */
-    padding: 10px 20px; /* Отступы */
-    border: none; /* Без границы */
-    border-radius: 5px; /* Закругленные углы */
-    cursor: pointer; /* Курсор в виде указателя */
-    font-size: 16px; /* Размер шрифта */
-    transition: background-color 0.3s; /* Плавный переход */
-}
-
-
-
-/* Стили для модального окна */
 .ReactModal__Overlay {
     z-index: 1001;
     background:linear-gradient(rgba(18, 32, 154, 0.5),transparent);
-    background-color:rgb(10, 8, 45) /*this your primary color*/
+    background-color:rgb(10, 8, 45);
  }
 
 .ReactModal__Content {
     top: 50%;
     left: 50%;
-    margin-bottom: 10%;
-    transform:translate(30%, 5%) ; /* Центрирование окна */
-    border-radius: 10px; /* Закругленные углы */
-    padding: 20px; /* Отступы внутри окна */
-    width: 60%; /* Ширина модального окна */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Тень под окном */
+    margin-bottom: 5%;
+    transform:translate(30%, 5%);
+    border-radius: 10px;
+    padding: 20px; 
+    width: 60%; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
     height:90vh;
 }
 
 
-/* Стили для формы */
+
 form {
     display: flex;
-    flex-direction: column; /* Вертикальное расположение элементов */
+    flex-direction: column; 
  }
 
-/* Стили для меток и полей ввода */
+
 label {
     margin-left: 40px;
-    margin-bottom: 10px; /* Отступы между элементами */
+    margin-bottom: 10px; 
     font-size: 18px;
     font-family: "Manrope", sans-serif;
     color:rgb(80, 78, 78);
@@ -76,35 +75,33 @@ label {
     margin-right: 40%;
 }
 
-input[type="text"],
-input[type="email"]
-
-{
-    margin-left: 10%;
-    padding: 10px; /* Отступы внутри полей */
-    border: 1px solid #ccc; /* Светлая граница */
-    border-radius: 5px; /* Закругленные углы */
-    margin-top: 5px; /* Отступ сверху */
-    width:50%;
-}
-
-.messageText{
-    margin-left: 10%;
-    padding: 40px; /* Отступы внутри полей */
-    border: 1px solid #ccc; /* Светлая граница */
-    border-radius: 5px; /* Закругленные углы */
-    margin-top: 5px; /* Отступ сверху */
+.inputName{
     width:80%;
-    color: rgb(13, 13, 13); 
+    background-color: aliceblue;
+    border:none;
+    margin-bottom: 15px; /* Отступ между полями ввода */
+    padding: 10px; /* Внутренний отступ для удобства ввода */
+    border-radius: 5px;
 }
 
-.textarea {
-    padding: 10px; /* Отступы внутри полей */
-    border: 1px solid #ccc; /* Светлая граница */
-    border-radius: 5px; /* Закругленные углы */
-    margin-top: 5px; /* Отступ сверху */ 
+.inputTel{
+    width:80%;
+    background-color: aliceblue;
+    border:none;
+    margin-bottom: 15px; /* Отступ между полями ввода */
+    padding: 10px; /* Внутренний отступ для удобства ввода */
+    border-radius: 5px; 
 }
 
+.inputMes{
+    width:80%;
+    height:30vh;
+    background-color: aliceblue;
+    border:none;
+    margin-bottom: 15px; /* Отступ между полями ввода */
+    padding: 10px; /* Внутренний отступ для удобства ввода */
+    border-radius: 5px; 
+}
 
 
 .btnCall-position{
@@ -133,14 +130,6 @@ cursor: pointer;
 }
 
 
-.closeBtn-list-position{
-    display:flex;
-    justify-content: flex-end;
-   }
-
-.closeBtn-list{
-    width:40px;
-  }
 
 .send{
     font-family: "Manrope", sans-serif;
@@ -149,10 +138,10 @@ cursor: pointer;
 }
 
 
-@media all and (max-width: 500px){
+@media all and (max-width: 800px){
 
     .Ourstaf{
-       font-size: 25px;
+       font-size: 18px;
     }
     
     .buttontlf{
@@ -160,103 +149,113 @@ cursor: pointer;
         font-size: 14px;
      }
        
- 
-    .ReactModal__Content {
-        top: 3%;
-        left: 3%;
-        margin-bottom: 10%;
-        transform:translate(30%, 5%) ; /* Центрирование окна */
-        border-radius: 10px; /* Закругленные углы */
-        padding: 20px; /* Отступы внутри окна */
-        width: 40%; /* Ширина модального окна */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Тень под окном */
+     
+    .closeBtn-list{
+        width:20px;
+      }
+
+      .ReactModal__Content {
+        margin-bottom: 5%;
+        transform:translate(10%, 5%);
+        border-radius: 10px;
+        padding: 20px; 
+        width: 60%; 
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
         height:90vh;
     }
-    
-    
-    /* Стили для меток и полей ввода */
+ 
     label {
-        margin-left: 40px;
-        margin-bottom: 10px; /* Отступы между элементами */
-        font-size: 12px;
-        font-family: "Manrope", sans-serif;
-        color:rgb(80, 78, 78);
+        margin-left: 3px;
+        font-size: 15px;
+        margin-bottom: 1%;
     }
-    
-    .lab{
-        margin-right: 40%;
-    }
-    
-    input[type="text"],
-    input[type="email"]
-    
-    {
-        margin-left: 10%;
-        padding: 10px; /* Отступы внутри полей */
-        border: 1px solid #ccc; /* Светлая граница */
-        border-radius: 5px; /* Закругленные углы */
-        margin-top: 5px; /* Отступ сверху */
-        width:50%;
-    }
-    
-    .messageText{
-        margin-left: 10%;
-        padding: 40px; /* Отступы внутри полей */
-        border: 1px solid #ccc; /* Светлая граница */
-        border-radius: 5px; /* Закругленные углы */
-        margin-top: 5px; /* Отступ сверху */
-        width:80%;
-        color: rgb(13, 13, 13); 
-    }
-    
-    .textarea {
-        padding: 10px; /* Отступы внутри полей */
-        border: 1px solid #ccc; /* Светлая граница */
-        border-radius: 5px; /* Закругленные углы */
-        margin-top: 5px; /* Отступ сверху */ 
-    }
-    
-    
-    
-    .btnCall-position{
-        margin-top: 7%;
-        margin-bottom: 3%;
-      display:flex;
-      flex-direction: column;
-      justify-content:center;
-      align-items: center;  
-    }
-    
-    .btnCall{
-    background-color: #2d0fefda;
-    border:none;
-    border-radius: 10px;
-    color:white;
-    font-size: 19px;
-    width:70%;
-    padding:10px;
-    cursor: pointer; 
-    }
-    
-    .btnCall:hover{
-        background-color: #2707f6;
-        color:#f5f7f8;
-    }
-    
-    
-    .closeBtn-list-position{
-        display:flex;
-        justify-content: flex-end;
+      
+    .inputName{
+        width:90%;
        }
     
-    .closeBtn-list{
-        width:40px;
+    .inputTel{
+        width:90%;
       }
     
+    .inputMes{
+        width:90%;
+        height:20vh;  
+    }
+    
+     
+    .btnCall{
+    font-size: 19px;
+    width:80%;
+       }
+    
+     
     .send{
-        font-family: "Manrope", sans-serif;
-        color:#0c2739;
-        font-size: 18px;
+       font-size: 14px;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 500px){
+
+    .Ourstaf{
+       font-size: 18px;
+    }
+    
+    .buttontlf{
+        width:65%;
+        font-size: 14px;
+     }
+       
+     
+    .closeBtn-list{
+        width:20px;
+      }
+
+    .ReactModal__Content {
+        top:auto;
+        left:auto;
+        margin-bottom:1px;
+        padding: 10px;
+        width: 70%; 
+    }
+ 
+    label {
+        margin-left: 3px;
+        font-size: 15px;
+        margin-bottom: 1%;
+    }
+      
+    .inputName{
+        width:90%;
+       }
+    
+    .inputTel{
+        width:90%;
+      }
+    
+    .inputMes{
+        width:90%;
+        height:20vh;  
+    }
+    
+     
+    .btnCall{
+    font-size: 19px;
+    width:80%;
+       }
+    
+     
+    .send{
+       font-size: 14px;
     }
     
 
