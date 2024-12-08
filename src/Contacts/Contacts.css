@@ -54,6 +54,49 @@
 
 
 @media all and (max-width: 500px){
-
-   
+    .contactTop{
+        width: 100%; 
+        opacity:0.8;
+        height:20vh;
+    }
+    
+    .adress-container{
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    .adress-position{
+        flex-direction: column; 
+        justify-content: center;
+        line-height: 21px; 
+        }
+    
+    .text-adress{
+        font-size: 16px;
+        }
+    
+    .text-tel{
+        font-size: 17px;
+        }
+    
+    .contacts-last{
+        font-size: 27px;
+        font-weight: 300;
+           }
+    
+    .text-mail{
+        font-size: 17px;
+          }
+    
+    .adressTwo-container{
+        margin-top: 3%;
+    }
+    
+   .map-container{
+    display:flex;
+    width:100%;
+   }
 }

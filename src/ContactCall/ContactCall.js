@@ -47,6 +47,7 @@ function ContactCall() {
 
 <input className="inputName" placeholder="Ваше имя" id="name" type="name" name="name" />
 
+<input className="inputName" placeholder="Компания" id="name" type="name" name="name" />
 
 <input className="inputTel" placeholder="Ваш телефон" id="phone" type="phone" name="phone" />
 

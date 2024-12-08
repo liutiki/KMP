@@ -8,12 +8,15 @@
 
 
 .vessel{
-    width:600px;
+    width:700px;
     border-radius: 20px;
-    opacity:0;
-    margin-left: 5%;
    }
-   
+ 
+   .textCompanyPosition{
+    width: 60%;
+margin-right: 5%;
+margin-left: 3%;
+}
 
 .Service-position{
  margin-left: 10%;   
@@ -185,12 +188,28 @@ align-items: center;
  
     .vesselPosition-Top{
           flex-direction: column;   
-    }
-    
-    .vessel{
-        width:350px;
-            }
+     }
 
+
+     .vesselPosition{
+display:flex;
+justify-content: center;
+margin-left: 15%;
+     }
+
+
+    .vessel{
+        width:110%;
+        }
+            .textCompanyPosition{
+                width: 80%;
+           margin-top: 3%;
+            }
+            
+            .textCompany{
+                font-size: 18px;
+                line-height: 27px;
+                }
             
 .servicePosition{
     margin-top: 5%;
@@ -234,28 +253,17 @@ margin-left: 2%;
 
 .container-service{
     flex-direction: column;
+  align-items: center;
   }
 
 .container-block{
     max-width: 80%;
-    max-height: 45vh;
-   }
+    }
 
 
 .top-service-block{
     font-size: 14px;   
 }
-
-
-.textCompanyPosition{
-    max-width: 350px;
-    margin-left: 5%;
-}
-
-.textCompany{
-    font-size: 21px;
-    line-height: 27px;
-    }
 
 .numberOne{
     font-size: 27px;
@@ -267,15 +275,15 @@ margin-left: 2%;
 }
 
 .text-general{
-    margin-top: 20%;
-    font-size: 18px;
+    margin-top: 5%;
+    font-size: 17px;
     line-height: 31px;
-    max-width: 450px;
+    
     }
 
    .ship-cruise{
-    margin-top: 10%;
-    width:40px;
+     width:40px;
+     margin-top: 1%;
 }
 
 }

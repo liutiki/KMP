@@ -18,7 +18,7 @@ const Footer =() => {
                
                 <li className="footer-rest">E-mail: info@kdsc.ru </li>
                 <li className="footer-rest"></li>
-                <li className="footer-rest">Tel: +79211069869</li>
+                <li className="footer-rest">Телефон: +79211069869</li>
             </ul>
 
             <ul className="relax-massage">
@@ -30,7 +30,7 @@ const Footer =() => {
                           </div> 
                           <div className="copyright">
                         
-                          <p>Copyright 2024 OOO "KMP"</p>
+                          <p>ООО "Калининградское Морское Пароходство" 2024</p>
                           </div>
         </div>
     )
