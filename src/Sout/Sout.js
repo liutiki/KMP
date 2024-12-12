@@ -11,9 +11,11 @@ const Sout = () => {
   };
 
   return (
-    <div>
-      <div onClick={toggleExpand} style={{ cursor: 'pointer', marginBottom: '10px' }}>
-        {isExpanded ? 'Скрыть' : 'Показать'} изображение
+    <div className="container-sout">
+        
+        <p className="Sout-style">Специальная оценка условий труда ООО "Калининградское Морское Пароходство"</p>
+      <div onClick={toggleExpand} className="moreInfo"style={{ cursor: 'pointer', marginBottom: '10px' }}>
+        {isExpanded ? 'Скрыть' : 'Подробнее'} 
       </div>
       {isExpanded && (
         <div style={{ width: '100%', height: 'auto', overflow: 'auto' }}>

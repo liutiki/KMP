@@ -3,6 +3,7 @@ import './NewTitul.css';
 import shipOn from './shipOn.jpg';
 import { gsap } from 'gsap';
 import Custombar from '../Navbar/Navbar';
+import CallButton from '../CallButton/CallButton';
 
 
 function NewTitul(){
@@ -39,7 +40,7 @@ function NewTitul(){
       <p className="seaWayWork">Работаем по направлению</p>
       <p className="seaWayWork">Калининград - Санкт-Петербург</p>   
       <p className="seaWayOffice">Представительства в Калининграде и Санкт-Петербурге</p>
-      <button className="btnCall-top">Связаться с нами</button>
+     <CallButton />
     </div>
      
     </div>

@@ -16,6 +16,7 @@ import Home from './Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Vacancies from './Vacancies/Vacancies';
 import Tarif from './Tarif/Tarif';
+import Policy from './Policy/Policy';
 
 
 
@@ -37,6 +38,7 @@ function App(){
     <Route path="/Tarif" element={<Tarif />}/>
     <Route path="/Vacancies" element={<Vacancies />}/>
     <Route path="/Contacts" element={<Contacts />}/>
+    <Route path="/Policy" element={<Policy />}/>
     </Routes>
   
     </Router>

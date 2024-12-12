@@ -13,6 +13,7 @@ import NewTitul from "../NewTitul/NewTitul";
 import './Home.css';
 import PhotoSaint from '../PhotoSaint/PhotoSaint';
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
@@ -69,7 +70,7 @@ function Home() {
           </div>
       
                 <Footer />
-            
+     
         </div>
     );
 }

@@ -34,10 +34,16 @@ function Custombar() {
                   <Nav.Link as={Link} to="/Service">Услуги</Nav.Link> 
                   <Nav.Link as={Link} to="/Vacancies">Вакансии</Nav.Link>
                   <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
-
+                  <div className="company-contacts">
+                  <div className="line-nav"></div>
+                  <p>+7 (123) 456-78-90</p>
+                  <p>info@kdsc.ru</p>
+                  
+                </div>
                 </Nav>
+               
               </Offcanvas.Body>
-            </Navbar.Offcanvas>
+              </Navbar.Offcanvas>
           </Container>
         </Navbar>
       ))}

@@ -1,0 +1,38 @@
+.container-sout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sout-style{
+    font-size: 21px;
+    font-family: "Manrope", sans-serif;
+
+}
+
+.moreInfo{
+    color:blue;
+    font-size: 21px;
+    font-family: "Manrope", sans-serif; 
+    cursor: 'pointer';
+    margin-bottom: '10px';
+}
+
+
+@media all and (max-width: 500px){
+
+    .container-sout{
+        display:flex;
+       margin-left: 20px;
+    }
+    .Sout-style{
+        font-size: 17px;
+          }
+    
+    .moreInfo{
+              font-size: 17px;
+       }
+
+
+}

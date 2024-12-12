@@ -1,0 +1,22 @@
+.container-personal-datas{
+    margin-top: 5%;
+    display:flex;
+    flex-direction: column;
+ margin-right: 50px;
+ margin-left: 50px;
+ font-family: "Manrope", sans-serif; 
+}
+
+
+
+@media all and (max-width: 500px){
+
+    .container-personal-datas{
+     margin-right: 10px;
+     margin-left: 10px;
+ 
+    }
+
+
+}
+

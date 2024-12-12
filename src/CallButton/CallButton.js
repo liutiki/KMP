@@ -3,17 +3,19 @@ import Modal from 'react-modal';
 import './CallButton.css';
 import close from './close-icon.png';
 
-Modal.setAppElement('#root'); // Установите элемент приложения для доступности
+Modal.setAppElement('#root'); 
 
 function CallButton() {
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
     const openModal = () => {
         setModalIsOpen(true);
+        document.body.style.overflow = 'hidden';
     };
 
     const closeModal = () => {
         setModalIsOpen(false);
+        document.body.style.overflow = 'unset'; 
     };
 
     return (
