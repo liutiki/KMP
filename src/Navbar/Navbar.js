@@ -36,7 +36,7 @@ function Custombar() {
                   <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
                   <div className="company-contacts">
                   <div className="line-nav"></div>
-                  <p>+7 (123) 456-78-90</p>
+                  <p>+7(921)106-98-69</p>
                   <p>info@kdsc.ru</p>
                   
                 </div>
