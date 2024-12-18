@@ -69,7 +69,7 @@ function Company() {
     </ul>
     <ul className="transport-position">
       <li className="transport">Мы занимаемся транспортировкой коммерческих грузов по направлению</li>
-      <li className="transportTwo">Калинингргад-Выборг-Калининград</li>
+      <li className="transportTwo">Калининград-Санкт-Петербург-Калининград</li>
     </ul>
     
 
