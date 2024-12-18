@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function AboutCompany(){
   const handleScrollToTop = () => {
-    window.scrollTo(0, 0); // Прокрутка к началу страницы
+    window.scrollTo(0, 0); 
 };
 
     return(<div>
