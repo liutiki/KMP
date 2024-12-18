@@ -35,7 +35,7 @@ function CallButton() {
                
                   
                 <h2 className="Ourstaf">Наш сотрудник свяжется с Вами в ближайшее время.</h2>
-                <form action="https://formspree.io/f/xgegyzoo" 
+                <form action="https://formsubmit.co/e.vorobyeva@kdsc.ru" 
                 method="POST">
                      
                     <label>

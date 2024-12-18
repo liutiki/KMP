@@ -21,16 +21,12 @@ import Policy from './Policy/Policy';
 
 
 
-
-
-
 function App(){
   
-
-
+ 
   return <Router>
    
-   
+ 
     <Routes>
     <Route path="/"element={<Home/>}/>
     <Route path="/Company" element={<Company/>}/>

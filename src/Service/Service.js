@@ -6,13 +6,16 @@ import Custombar from "../Navbar/Navbar";
 import ship from '../Company/cruiseShip.png';
 import carton from '../Company/сarton.png';
 import shipTwo from '../Company/shipTwo.png';
-
+import shipService from './shipServise.jpg';
+import './Service.css';
 
 function Service(){
     return(<div>
 
         <ContactsTop />
         <Custombar /> 
+
+        <img src={shipService} className="shipService"alt="shipService"/>
    
         <ul className="Service-position">
     <li className="Service">Услуги</li>

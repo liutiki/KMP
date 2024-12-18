@@ -9,17 +9,17 @@ function ContactCall() {
 
 
     const { inView } = useInView({
-        threshold: 0.1, // 10% элемента должно быть видно
+        threshold: 0.1, 
     });
 
     const formRef = useRef(null);
 
     useEffect(() => {
         if (inView) {
-            // Анимация появления картинки
+            
             gsap.fromTo(formRef.current, 
-                { opacity: 0 }, // Начальное состояние
-                { opacity: 1, duration: 1, delay:0.5 } // Конечное состояние
+                { opacity: 0 }, 
+                { opacity: 1, duration: 1, delay:0.5 } 
             );
         }
     }, [inView]);
@@ -41,7 +41,7 @@ function ContactCall() {
                 <form 
                  ref={formRef} 
                  className="form-container" 
-                 action="https://formspree.io/f/xgegyzoo" 
+                 action="https://formsubmit.co/e.vorobyeva@kdsc.ru" 
                  method="POST">
                    <label htmlFor="email"></label>
 

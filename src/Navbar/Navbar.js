@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import iconphone from './iconsphone.png';
+import iconemail from './iconsemail.png';
 
 function Custombar() {
   return (
@@ -36,9 +38,8 @@ function Custombar() {
                   <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
                   <div className="company-contacts">
                   <div className="line-nav"></div>
-                  <p>+7(921)106-98-69</p>
-                  <p>info@kdsc.ru</p>
-                  
+                  <p><img src={iconphone} className="icon-phone-canvas"  alt="kmp-icon" />+7(921)106-98-69</p>
+                  <p><img src={iconemail} className="icon-phone-canvas" alt="kmp-icon" />info@kdsc.ru</p> 
                 </div>
                 </Nav>
                

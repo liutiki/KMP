@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import ContactsTop from '../ContactsTop/ContactsTop';
 import Footer from '../Footer/Footer';
 import Custombar from '../Navbar/Navbar';
@@ -7,6 +8,11 @@ import './Policy.css';
 
 
 function Policy (){
+
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, []);
+   
     return(
           <div >
             <ContactsTop />
