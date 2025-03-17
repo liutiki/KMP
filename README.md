@@ -1,4 +1,3 @@
 # Pet-Project Web site
 
-
-https://kdsc.netlify.app
+(https://kdsc.ru)
