@@ -1,3 +1,3 @@
-# Pet-Project Web site
+# Web site for shipping company
 
 (https://kdsc.ru)
