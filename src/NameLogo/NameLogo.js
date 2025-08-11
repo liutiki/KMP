@@ -8,17 +8,16 @@ import check from './check.png';
 
 function NameLogo() {
     const { ref, inView } = useInView({
-        threshold: 0.1, // 10% элемента должно быть видно
+        threshold: 0.1,
     });
 
     const imgRef = useRef(null);
 
     useEffect(() => {
         if (inView) {
-            // Анимация появления картинки
             gsap.fromTo(imgRef.current, 
-                { opacity: 0, scale: 0.5 }, // Начальное состояние
-                { opacity: 1, scale: 1, duration: 1, } // Конечное состояние
+                { opacity: 0, scale: 0.5 }, 
+                { opacity: 1, scale: 1, duration: 1, } 
             );
         }
     }, [inView]);

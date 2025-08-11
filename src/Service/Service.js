@@ -1,6 +1,5 @@
 import ContactCall from "../ContactCall/ContactCall";
 import ContactsTop from "../ContactsTop/ContactsTop";
-import DownloadDocs from "../DownloadDocs/DownloadDocs";
 import Footer from "../Footer/Footer";
 import Custombar from "../Navbar/Navbar";
 import ship from '../Company/cruiseShip.png';
@@ -66,14 +65,20 @@ function Service(){
 
 </div>
 
+<div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 
 
+</div>
+       
 
-       <div className="docsPosition">
-         <p className="docs"> Документы для скачивания</p>
-       </div>
-      
-        <DownloadDocs/>
 
         <ContactCall/>
         <Footer />

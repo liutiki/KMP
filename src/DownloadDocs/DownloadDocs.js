@@ -12,7 +12,7 @@ const DownloadDocs = () => {
             </div>
             <div className="btnDoc-position">
             <a href="/document.docx" download>
-                <button className="btn-download-doc">Скачать договор</button>
+                <button className="btn-download-doc">В работе</button>
             </a>
             </div>
         </div>
@@ -25,7 +25,7 @@ const DownloadDocs = () => {
             </div>
             <div className="btnDoc-position">
             <a href="/document.docx" download>
-                <button className="btn-download-doc">Скачать реквизиты</button>
+                <button className="btn-download-doc">В работе</button>
             </a>
             </div>
         </div>

@@ -18,60 +18,54 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
     useEffect(() => {
-        // Анимация для всех компонентов
+ 
         const sections = document.querySelectorAll('.animate-section');
 
         sections.forEach(section => {
             gsap.fromTo(section, 
-                { y: 100, opacity: 0 }, // Начальное состояние
+                { y: 100, opacity: 0 }, 
                 { 
                     y: 0, 
                     opacity: 1, 
                     duration: 1, 
                     scrollTrigger: {
                         trigger: section,
-                        start: "top 80%", // Начало анимации
-                        toggleActions: "play none none reverse", // Действия при прокрутке
+                        start: "top 80%", 
+                        toggleActions: "play none none reverse", 
                     }
                 }
             );
         });
 
         return () => {
-            ScrollTrigger.getAll().forEach(trigger => trigger.kill()); // Удаляем все триггеры при размонтировании компонента
+            ScrollTrigger.getAll().forEach(trigger => trigger.kill()); 
         };
     }, []);
 
     return (
         <div>
          
-         <ContactsTop />
-     
-      
+         <ContactsTop />     
          <NewTitul />
          <PhotoSaint />
          <div className="animate-section">
-                <NameLogo />
-            </div>
-            <div className="animate-section">
-                <AboutCompany />
-            </div>
-           
-            <AdvantagesGsap />
-          
-            <div className="animate-section">
-              <Advantages />
-          </div>
-          <div className="animate-section">
-              <Flot />
-          </div>
-          <div className="animate-section">
-              <ContactCall />
-          </div>
-      
-                <Footer />
-     
-        </div>
+         <NameLogo />
+         </div>
+         <div className="animate-section">
+         <AboutCompany />
+         </div>  
+         <AdvantagesGsap /> 
+         <div className="animate-section">
+         <Advantages />
+         </div>
+         <div className="animate-section">
+         <Flot />
+         </div>
+         <div className="animate-section">
+         <ContactCall />
+         </div>
+         <Footer />
+         </div>
     );
 }
 

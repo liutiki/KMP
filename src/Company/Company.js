@@ -39,7 +39,7 @@ function Company() {
 
 <div className="vesselPosition-Top">
 <div className="vesselPosition">
-   <img 
+    <img 
      ref={vesselRef} 
      className="vessel"
      src={vessel}
@@ -117,11 +117,10 @@ function Company() {
 
 
        <div className="docsPosition">
-         <p className="docs"> Документы для скачивания</p>
+       <p className="docs"> Документы для скачивания</p>
        </div>
       
         <DownloadDocs/>
-
         <ContactCall/>
         <Footer />
     </div>

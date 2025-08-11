@@ -1,11 +1,10 @@
 .shipTitul{
-  
     width:100%;
     height:auto;
     }
 
 .titul-container {
-    position: relative; 
+    position:relative; 
 }
 
 .your-Top{
@@ -25,13 +24,9 @@
     z-index: 1; 
   }
 
-  
- 
-  
-
-  .btnCall-top{
+   .btnCall-top{
     background:linear-gradient(rgba(132, 203, 221, 0.5),transparent);
-    background-color:rgb(46, 35, 171);
+    background-color:rgb(80, 71, 184);
     border:none;
     color:white;
     font-family: "Manrope", sans-serif;
@@ -66,7 +61,7 @@ margin-top:25%;
 
 
   .seaWay-position{
-margin-top: 8%;
+margin-top: 1px;
   }
 
   .seaWay{
@@ -97,6 +92,12 @@ margin-top: 8%;
     line-height: 43px;
     line-height: 15px;
   }
+
+.marquee{
+  margin-top: 6%;
+  position:absolute;
+  width: 100%;
+}
 
  
   @media all and (max-width: 500px){

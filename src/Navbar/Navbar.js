@@ -38,8 +38,8 @@ function Custombar() {
                   <Nav.Link as={Link} to="/Contacts">Контакты</Nav.Link>
                   <div className="company-contacts">
                   <div className="line-nav"></div>
-                  <p><img src={iconphone} className="icon-phone-canvas"  alt="kmp-icon" />+7(921)106-98-69</p>
-                  <p><img src={iconemail} className="icon-phone-canvas" alt="kmp-icon" />info@kdsc.ru</p> 
+                  <p><img src={iconphone} className="icon-phone-canvas"  alt="-" />+7(4012)99-49-89</p>
+                  <p><img src={iconemail} className="icon-phone-canvas" alt="-" />info@kdsc.ru</p> 
                 </div>
                 </Nav>
                

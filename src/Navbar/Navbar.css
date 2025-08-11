@@ -10,22 +10,21 @@
     font-size: 21px;
     font-family: "Manrope", sans-serif;
     margin-left:800px;
-    font-weight: 300;
-  }
+    font-weight: 500;
+   }
 
   .me-auto{
    display:none;
 }
 
 .company-contacts{
-    display: none;
-   
+    display: none;  
 }
 
 .line-nav{
         width: 100%;
         height: 1px; 
-        background-color: rgb(73, 71, 71);          
+        background-color: rgb(73, 71, 71);         
 }
   
   @media all and (max-width: 500px) {

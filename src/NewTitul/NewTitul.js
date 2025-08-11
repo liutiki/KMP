@@ -4,34 +4,37 @@ import shipOn from './shipOn.jpg';
 import { gsap } from 'gsap';
 import Custombar from '../Navbar/Navbar';
 import CallButton from '../CallButton/CallButton';
-
+import Marquee from '../Marquee/Marquee';
 
 function NewTitul(){
 
     useEffect(() => {
-        // Анимация для seaWay-position
+        
         gsap.fromTo(
             '.seaWay-position',
-            { y: 10, opacity: 0 }, // Начальные значения
-            { y: 0, opacity: 1,delay:1, duration: 1 } // Конечные значения и длительность
+            { y: 10, opacity: 0 }, 
+            { y: 0, opacity: 1,delay:1, duration: 1 }
         );
     }, []);
 
 
     return(
-        <div className="titul-container">
-          
+          <div className="titul-container">
+         
           <div className="contactsNewTop">
-               <Custombar/>
-            </div>
-        
-        <div >
-<img className="shipTitul" src={shipOn} alt="shipTitul" />
-        </div>
+          <Custombar/>             
+          </div>
+          <div className="marquee">
+          <Marquee text="КОНТЕЙНЕРНЫЕ ГРУЗОПЕРЕВОЗКИ. ПЕРЕВОЗКА ГРУЗОВ В 20 И 40-ФУТОВЫХ КОНТЕЙНЕРАХ НАШЕГО КОНТЕЙНЕРНОГО ПАРКА ИЗ САНКТ-ПЕТЕРБУРГА В КАЛИНИНГРАД."/>  
+          </div>
+          <div >
 
+        <img className="shipTitul" src={shipOn} alt="shipTitul" />
+        </div>
+       
 <div className="delivery-position">
 
-    <div className="seaWay-position">
+    <div className="seaWay-position">         
     <p className="your-Top">ВАШ НАДЕЖНЫЙ ПАРТНЕР В СФЕРЕ МОРСКИХ ПЕРЕВОЗОК</p>
     <p className="seaWay">Морские</p>
     <p className="seaWay">Грузоперевозки</p>

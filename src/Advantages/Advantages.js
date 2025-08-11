@@ -15,39 +15,38 @@ gsap.registerPlugin(ScrollTrigger);
 function Advantages() {
 
     useEffect(() => {
-        // Анимация для первого контейнера
-        const tlOne = gsap.timeline({
+            const tlOne = gsap.timeline({
             scrollTrigger: {
                 trigger: ".container-adv-one",
-                start: "top 80%", // Начало анимации
-                end: "bottom 20%", // Конец анимации
-                toggleActions: "play none none reverse", // Действия при прокрутке
+                start: "top 80%", 
+                end: "bottom 20%", 
+                toggleActions: "play none none reverse", 
             }
         });
 
         tlOne.fromTo(".container-adv-one", 
-            { y: 100, opacity: 0 }, // Начальное состояние
-            { y: 0, opacity: 1, duration: 1 } // Конечное состояние
+            { y: 100, opacity: 0 }, 
+            { y: 0, opacity: 1, duration: 1 } 
         );
 
-        // Анимация для второго контейнера
+      
         const tlTwo = gsap.timeline({
             scrollTrigger: {
                 trigger: ".container-adv-two",
-                start: "top 80%", // Начало анимации
-                end: "bottom 20%", // Конец анимации
-                toggleActions: "play none none reverse", // Действия при прокрутке
+                start: "top 80%", 
+                end: "bottom 20%",
+                toggleActions: "play none none reverse", 
             }
         });
 
         tlTwo.fromTo(".container-adv-two", 
-            { y: 100, opacity: 0 }, // Начальное состояние
-            { y: 0, opacity: 1, duration: 1 } // Конечное состояние
+            { y: 100, opacity: 0 },
+            { y: 0, opacity: 1, duration: 1 } 
         );
 
         return () => {
-            tlOne.kill(); // Удаляем таймлайн при размонтировании компонента
-            tlTwo.kill(); // Удаляем таймлайн для второго контейнера
+            tlOne.kill(); 
+            tlTwo.kill(); 
         };
     }, []);
 

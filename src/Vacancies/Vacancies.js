@@ -8,6 +8,7 @@ import Download from "../Download/Download";
 import blueWave from "./blueWaveOne.png";
 import Custombar from "../Navbar/Navbar";
 import Sout from "../Sout/Sout";
+import VesselCardFleet from "../Flot/VesselCardFleet";
 
 
 
@@ -37,46 +38,10 @@ function Vacancies (){
 </div>
 
 
-
-
-<div className="vacancies-position">
-    <div className="vac">
-    <div className="picture-position-vacancy">
-    <img className="picture" src={map} alt="vessel"/>
-    </div>
-    <p className="type">Судовой повар</p>
-    <p className="type">Тип судна: Генеральные грузы</p>
-    <p className="type">GRT: 3800</p>
-    <p className="type">KW: 3980</p>
-</div>
-
-<div className="vac">
-    <div className="picture-position-vacancy">
-    <img src={map} className="picture" alt="vessel"/>     
-    </div>
-    <p className="type">2 механик</p>
-    <p className="type">Тип судна: Генеральные грузы</p>
-    <p className="type">GRT: 3800</p>
-    <p className="type">KW: 3980</p>
-</div>
-
-<div className="vac">
-<div className="picture-position-vacancy">
-    <img src={map} className="picture" alt="vessel"/>     
-    </div>
-    <p className="type">Матросы 1,2 класса</p>
-    <p className="type">Тип судна: Генеральные грузы</p>
-    <p className="type">GRT: 3800</p>
-    <p className="type">KW: 3980</p>
-  
-  </div>
-
-</div>
-
-
+<VesselCardFleet/>
 <Sout/>
-
 <Footer />
+
         </div>
     )
 

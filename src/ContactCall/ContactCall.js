@@ -2,6 +2,7 @@ import { useInView } from 'react-intersection-observer';
 import './ContactCall.css';
 import { gsap } from 'gsap';
 import { useEffect, useRef} from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,7 +12,6 @@ function ContactCall() {
     const { inView } = useInView({
         threshold: 0.1, 
     });
-
     const formRef = useRef(null);
 
     useEffect(() => {
@@ -25,51 +25,31 @@ function ContactCall() {
     }, [inView]);
 
 
-    return (
-
-     
-       
-        <div className="way">
-      
-        <div className="modalQuestion-container">
-            <div className="connectWithUs-position">
+    return (    
+           <div className="way">
+           <div className="modalQuestion-container">
+           <div className="connectWithUs-position">
            <p className="connectWithUs">Связаться с нами</p>
            <p className="fillForm">Заполните форму и наш менеджер свяжется с вами для полного расчета стоимости и сроков.</p>      
             </div>
        
                      
-                <form 
-                 ref={formRef} 
-                 className="form-container" 
-                 action="https://formsubmit.co/e.vorobyeva@kdsc.ru" 
-                 method="POST">
-                   <label htmlFor="email"></label>
-
-<input className="inputName" placeholder="Ваше имя" id="name" type="name" name="name" />
-
-<input className="inputName" placeholder="Компания" id="name" type="name" name="name" />
-
-<input className="inputTel" placeholder="Ваш телефон" id="phone" type="phone" name="phone" />
-
-
+           <form action="https://formcarry.com/s/aWX-ODncuxl" method="POST" enctype="multipart/form-data">
+ <label>                     
+<input className="inputName" placeholder="Ваше имя" id="name" type="text" name="name" required/>
+<input className="inputName" placeholder="Компания" id="company" type="text" name="company" required />
+<input className="inputTel" placeholder="Ваш телефон" id="phone" type="phone" name="phone" required />
 <textarea className="inputMes" placeholder="Сообщение" id="message" name="message" />
-
-
-
-                                 
-                   
-                    <div className="btnCall-position">
+ </label>                
+                   <div className="btnCall-position">
                     <button className="btnCall" type="submit">Отправить</button>
                     <p className="press-Send">Нажимая кнопку "Отправить", вы даете согласие на обработку персональных данных</p>      
-                    </div>
-                      
-                    
-                                               
+                    <Link to="/policy" className="policy-link">Политика обработки персональных данных</Link>    
+                    </div>                             
                 </form>
       
         </div>
         </div>
-        
         );
 }
 

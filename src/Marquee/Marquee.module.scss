@@ -1,0 +1,15 @@
+.marquee {
+  overflow: hidden; 
+  white-space: nowrap; 
+  width: 100%;
+  height: 50px; 
+  background-color: rgba(109, 89, 224, 0.581);
+  color: rgb(238, 242, 236);
+  font-size: 25px;
+  font-weight: 400;
+  position: relative; 
+}
+
+.marquee_content {
+  display: inline-block; 
+}

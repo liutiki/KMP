@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './CallButton.css';
 import close from './close-icon.png';
+import { Link } from 'react-router-dom';
 
 Modal.setAppElement('#root'); 
 
@@ -35,16 +36,16 @@ function CallButton() {
                
                   
                 <h2 className="Ourstaf">Наш сотрудник свяжется с Вами в ближайшее время.</h2>
-                <form action="https://formsubmit.co/e.vorobyeva@kdsc.ru" 
-                method="POST">
+               <form action="https://formcarry.com/s/aWX-ODncuxl" method="POST" enctype="multipart/form-data">
+                
                      
                     <label>
                        
-<input className="inputName" placeholder="Ваше имя" id="name" type="name" name="name" />
+<input className="inputName" placeholder="Ваше имя" id="name" type="text" name="name" required/>
 
-<input className="inputName" placeholder="Компания" id="name" type="name" name="name" />
+<input className="inputName" placeholder="Компания" id="company" type="text" name="company" required />
 
-<input className="inputTel" placeholder="Ваш телефон" id="phone" type="phone" name="phone" />
+<input className="inputTel" placeholder="Ваш телефон" id="phone" type="phone" name="phone" required />
 
 
 <textarea className="inputMes" placeholder="Сообщение" id="message" name="message" />
@@ -54,8 +55,10 @@ function CallButton() {
                                      
                    
                     <div className="btnCall-position">
+                   
                     <button className="btnCall" type="submit">Отправить</button>
-                    <p className="send">Нажимая кнопку "Отправить", вы даете согласие на обработку персональных данных</p>      
+                   <p className="send">Нажимая кнопку "Отправить", вы даете согласие на обработку персональных данных</p> 
+                     <Link to="/policy" className="policy-link">Политика обработки персональных данных</Link>     
                     </div>
                       
                     

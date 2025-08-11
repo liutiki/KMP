@@ -79,6 +79,85 @@ justify-content: center;
 }
 
 
+@media all and (max-width: 800px){
+
+    .AboutPosition{
+        display:flex;
+        flex-direction: column;
+        margin-top: 20%;
+        }
+        
+        
+        .PositionTwo{
+        
+        background-color: #134b70;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        
+        .PortPhoto{
+            width:50%;  
+        }
+        
+        .Text-position{
+        display:flex;
+        justify-content: center;
+        max-width:90%;
+        }
+        
+        .textAbout{
+           font-optical-sizing: auto;
+           font-size:134x;
+           font-weight:300;
+           line-height: 32px;        
+           }
+        
+        .btn-position-about{
+        margin-top: 5%;
+        display:flex;
+        justify-content: center;
+        
+        }
+               
+        .btnAbout{
+            font-family: "Manrope", sans-serif;
+            background-color: transparent;
+            color:#7FA1C3;
+            font-size:18px;
+            border:none;
+            font-weight: 650;
+            text-decoration: none;
+        }
+        .btnAbout:hover{
+            color:#6482AD;
+        }
+        
+        .kmp-icon{
+            width:9%;
+        }
+        
+        .AboutTop{
+           font-size: 25px;
+           }
+        
+        .topPosition{
+            margin-top: 5%;
+            margin-bottom: 3%;
+            display:flex;
+            justify-content: center;
+        }
+        
+        .photo-position{
+            display:flex;
+            flex-direction: row;
+        }
+
+
+}
+
+
 @media all and (max-width: 500px){
 
     .AboutPosition{
@@ -120,8 +199,7 @@ justify-content: center;
         justify-content: center;
         
         }
-        
-        
+               
         .btnAbout{
             font-family: "Manrope", sans-serif;
             background-color: transparent;
@@ -154,11 +232,6 @@ justify-content: center;
             display:flex;
             flex-direction: row;
         }
-
-
-
-
-
 }
 
 @media all and (max-width: 375px){
