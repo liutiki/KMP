@@ -1,10 +1,10 @@
 import './Advantages.css';
-import logoOne from './kmp-logo-one.jpg';
-import logoThree from './kmp-logo-three.jpg';
-import logoTwo from './kmp-logo-two.jpg';
-import logoFour from './kmp-logo-four.png';
-import logoFive from './kmp-logo-five.png';
-import logoSix from './kmp-logo-six.png';
+import logoOne from '../Assets/kmp-logo-one.jpg';
+import logoThree from '../Assets/kmp-logo-three.jpg';
+import logoTwo from '../Assets/kmp-logo-two.jpg';
+import logoFour from '../Assets/kmp-logo-four.png';
+import logoFive from '../Assets/kmp-logo-five.png';
+import logoSix from '../Assets/kmp-logo-six.png';
 import CallButton from '../CallButton/CallButton';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';

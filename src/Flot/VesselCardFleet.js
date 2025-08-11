@@ -1,5 +1,4 @@
     import './Flot.css';
-    import React from 'react';
     import { dataFlot } from './DataFlot';
     
     

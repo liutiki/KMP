@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import ContactsTop from "../ContactsTop/ContactsTop";
 import Footer from "../Footer/Footer";
-import map from './Yant.jpg';
 import './Vacancies.css';
 import { gsap } from 'gsap';
 import Download from "../Download/Download";
