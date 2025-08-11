@@ -4,7 +4,7 @@ import shipOn from './shipOn.jpg';
 import { gsap } from 'gsap';
 import Custombar from '../Navbar/Navbar';
 import CallButton from '../CallButton/CallButton';
-import Marquee from '../Marquee/Marquee';
+
 
 function NewTitul(){
 
@@ -24,9 +24,7 @@ function NewTitul(){
           <div className="contactsNewTop">
           <Custombar/>             
           </div>
-          <div className="marquee">
-          <Marquee text="КОНТЕЙНЕРНЫЕ ГРУЗОПЕРЕВОЗКИ. ПЕРЕВОЗКА ГРУЗОВ В 20 И 40-ФУТОВЫХ КОНТЕЙНЕРАХ НАШЕГО КОНТЕЙНЕРНОГО ПАРКА ИЗ САНКТ-ПЕТЕРБУРГА В КАЛИНИНГРАД."/>  
-          </div>
+          
           <div >
 
         <img className="shipTitul" src={shipOn} alt="shipTitul" />

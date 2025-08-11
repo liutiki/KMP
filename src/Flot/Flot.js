@@ -26,7 +26,7 @@
     <p className="description">{dwt}</p>
     <p className="description">{date}</p>
     </div>
-    <button>Подробнее</button>
+  
         </div>
   
         

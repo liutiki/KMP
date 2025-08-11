@@ -7,7 +7,7 @@ import ship from './cruiseShip.png';
 import carton from './сarton.png';
 import shipTwo from './shipTwo.png';
 import Custombar from "../Navbar/Navbar";
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
 import ContactCall from "../ContactCall/ContactCall";
