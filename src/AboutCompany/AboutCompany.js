@@ -1,7 +1,7 @@
 import ExpTop from '../Experience/ExpTop';
-import photo from './AboutPhoto.jpg';
-import photoTwo from './AboutPhotoTwo.jpg';
-import kmpIcon from './kmpIcon.png';
+import photo from '../Assets/AboutPhoto.jpg';
+import photoTwo from '../Assets/AboutPhotoTwo.jpg';
+import kmpIcon from '../Assets/kmpIcon.png';
 import styles from './AboutCompany.module.scss';
 import { Link } from 'react-router-dom';
 

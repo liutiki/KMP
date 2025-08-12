@@ -1,9 +1,8 @@
 import ContactsTop from "../ContactsTop/ContactsTop";
-import PhotoTop from './PhotoTop.jpg';
-import './Contacts.css';
+import PhotoTop from '../Assets/PhotoTop.jpg';
 import Footer from "../Footer/Footer";
 import Custombar from "../Navbar/Navbar";
-
+import './Contacts.css';
 
 function Contacts(){
     return(<div>

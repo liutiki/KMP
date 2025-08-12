@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import SoutOne from './Sout_one.jpg';
-import SoutTwo from './Sout_two.jpg';
+import SoutOne from '../Assets/Sout_one.jpg';
+import SoutTwo from '../Assets/Sout_two.jpg';
 import './Sout.css';
 
 const Sout = () => {

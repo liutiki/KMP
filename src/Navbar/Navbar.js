@@ -4,8 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import iconphone from './iconsphone.png';
-import iconemail from './iconsemail.png';
+import iconphone from '../Assets/iconsphone.png';
+import iconemail from '../Assets/iconsemail.png';
 
 function Custombar() {
   return (

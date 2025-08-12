@@ -1,10 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
-import { gsap } from 'gsap';
-import photoShip from './photo-ship.jpg';
-import './NameLogo.css';
+import photoShip from '../Assets/photo-ship.jpg';
 import CallButton from '../CallButton/CallButton';
-import check from './check.png';
+import check from '../Assets/check.png';
+import './NameLogo.css';
+import { gsap } from 'gsap';
+
 
 function NameLogo() {
     const { ref, inView } = useInView({
@@ -12,7 +13,6 @@ function NameLogo() {
     });
 
     const imgRef = useRef(null);
-
     useEffect(() => {
         if (inView) {
             gsap.fromTo(imgRef.current, 
@@ -25,7 +25,6 @@ function NameLogo() {
     return (
         <div className="phraze" ref={ref}>
             <img className="ship" src={photoShip} alt="ship" ref={imgRef} />
-
             <div className="phrazeSecond">
                 <p className="safety"><img className="check"src={check} alt="checkMark"/>Квалифицированный логистический оператор</p>
                 <p className="safety"><img className="check"src={check} alt="checkMark"/>Резидент Особой Экономической Зоны</p>

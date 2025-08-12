@@ -1,7 +1,7 @@
-import logo from './logo.png';
-import telegram from './telegram.png';
-import phone from './phone.png';
-import mail from './mail.png';
+import logo from '../Assets/logo.png';
+import telegram from '../Assets/telegram.png';
+import phone from '../Assets/phone.png';
+import mail from '../Assets/mail.png';
 import './ContactsTop.css';
 import { Link } from 'react-router-dom';
 
@@ -18,12 +18,11 @@ function ContactsTop(){
                 <p className="sea">Морское Пароходство</p>
                 </div>
                 </div>
+         </Link>
+         </div>
 
-            </Link>
-            </div>
-
-      <div className="tlf">
-      <p className="tel" href="tel:+74012994989"><img src={phone} alt="logo-kmp" width="30px"/>+7 4012 99 49 89</p>
+    <div className="tlf">
+    <p className="tel" href="tel:+74012994989"><img src={phone} alt="logo-kmp" width="30px"/>+7 4012 99 49 89</p>
 
     <p className="info">
     <img className="mail" src={mail} alt="logo-kmp" />

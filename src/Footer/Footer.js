@@ -1,11 +1,9 @@
-import './Footer.css';
-import telegram from '../ContactsTop/telegram.png';
-import logo from '../ContactsTop/logo.png';
-import './Footer.css';
+import telegram from '../Assets/telegram.png';
+import logo from '../Assets/logo.png';
 import { useNavigate } from 'react-router-dom';
-import iconstelephone from './iconstelephone.png';
-import footermail from './footermail.png';
-
+import iconstelephone from '../Assets/iconstelephone.png';
+import footermail from '../Assets/footermail.png';
+import './Footer.css';
 
 const Footer =() => {
 

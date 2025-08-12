@@ -1,4 +1,4 @@
-import dest from './vesselDest.jpg';
+import dest from '../Assets/vesselDest.jpg';
 import './PhotoSaint.css';
 
 function PhotoSaint(){

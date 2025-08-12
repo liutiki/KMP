@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './NewTitul.css';
-import shipOn from './shipOn.jpg';
+import shipOn from '../Assets/shipOn.jpg';
 import { gsap } from 'gsap';
 import Custombar from '../Navbar/Navbar';
 import CallButton from '../CallButton/CallButton';

@@ -2,10 +2,10 @@ import ContactCall from "../ContactCall/ContactCall";
 import ContactsTop from "../ContactsTop/ContactsTop";
 import Footer from "../Footer/Footer";
 import Custombar from "../Navbar/Navbar";
-import ship from '../Company/cruiseShip.png';
-import carton from '../Company/сarton.png';
-import shipTwo from '../Company/shipTwo.png';
-import shipService from './shipServise.jpg';
+import ship from '../Assets/cruiseShip.png';
+import carton from '../Assets/сarton.png';
+import shipTwo from '../Assets/shipTwo.png';
+import shipService from '../Assets/shipServise.jpg';
 import './Service.css';
 
 function Service(){

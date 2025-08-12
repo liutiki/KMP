@@ -1,16 +1,15 @@
 import ContactsTop from "../ContactsTop/ContactsTop";
 import Footer from "../Footer/Footer";
-import vessel from './Containers.jpg';
-import './Company.css';
+import vessel from '../Assets/Containers.jpg';
 import DownloadDocs from "../DownloadDocs/DownloadDocs";
-import ship from './cruiseShip.png';
-import carton from './сarton.png';
-import shipTwo from './shipTwo.png';
+import ship from '../Assets/cruiseShip.png';
+import carton from '../Assets/сarton.png';
+import shipTwo from '../Assets/shipTwo.png';
 import Custombar from "../Navbar/Navbar";
 import  { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
-
 import ContactCall from "../ContactCall/ContactCall";
+import './Company.css';
+import { gsap } from 'gsap';
 
 
 function Company() { 

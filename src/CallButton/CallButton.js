@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './CallButton.css';
-import close from './close-icon.png';
+import close from '../Assets/close-icon.png';
 import { Link } from 'react-router-dom';
 
 Modal.setAppElement('#root'); 

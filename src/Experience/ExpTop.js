@@ -1,6 +1,5 @@
+import photoOne from '../Assets/photoOne.png'
 import './Exp.css';
-import photoOne from './photoOne.png'
-
 
 function ExpTop(){
     return(<div className="exp">

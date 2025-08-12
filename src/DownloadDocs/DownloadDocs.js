@@ -1,6 +1,5 @@
-import React from 'react';
 import './DownloadDocs.css';
-import docsPhoto from './documentFolder.png';
+import docsPhoto from '../Assets/documentFolder.png';
 
 const DownloadDocs = () => {
     return (

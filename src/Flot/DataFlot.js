@@ -1,6 +1,6 @@
-import Zel from './Vessels/Zel.jpg';
-import Svet from './Vessels/Svet.jpg';
-import Yant from './Vessels/Yant.jpg';
+import Zel from '../Assets/Zel.jpg';
+import Svet from '../Assets/Svet.jpg';
+import Yant from '../Assets/Yant.jpg';
 
 
 export const dataFlot = [
@@ -10,9 +10,8 @@ export const dataFlot = [
     name: 'т/х "Зеленоградск"',
     description: 'Тип судна: Генеральные грузы',
     dwt:'GRT : 2979',
-    date:'Год постройки : 1997',
-    
-   },
+    date:'Год постройки : 1997',   
+},
 
 {
     image:Svet,
@@ -29,6 +28,4 @@ export const dataFlot = [
     dwt:'GRT : 3170',
     date:'Год постройки : 2000'
 },
-
-
 ]

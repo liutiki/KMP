@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 import './Vacancies.css';
 import { gsap } from 'gsap';
 import Download from "../Download/Download";
-import blueWave from "./blueWaveOne.png";
+import blueWave from "../Assets/blueWaveOne.png";
 import Custombar from "../Navbar/Navbar";
 import Sout from "../Sout/Sout";
 import VesselCardFleet from "../Flot/VesselCardFleet";
