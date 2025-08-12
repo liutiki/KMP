@@ -17,24 +17,20 @@ function Company() {
     const textRef = useRef(null); 
 
     useEffect(() => { 
-  
-        gsap.fromTo(vesselRef.current,  
-            { opacity: 0, },  
-            { opacity: 1, duration: 3, delay: 0.5, x: -30 } 
+         gsap.fromTo(vesselRef.current,  
+         { opacity: 0, },  
+         { opacity: 1, duration: 3, delay: 0.5, x: -30 } 
         );
-
-    
+ 
         gsap.fromTo(textRef.current, 
             { opacity: 0, x: -20 }, 
             { opacity: 1, x: 0, duration: 1, delay: 0.5 } 
-        );
-    }, []); 
+           );
+         }, []); 
 
-    return(<div>
+        return(<div>
          <ContactsTop />
          <Custombar />  
-
-
 
 <div className="vesselPosition-Top">
 <div className="vesselPosition">
@@ -46,23 +42,14 @@ function Company() {
 </div>  
 
 <div className="textCompanyPosition" >
-<p className="textCompany" ref={textRef}><span className="numberOne"> В 2022</span>  году Судоходная компания начала свою деятельность с фрахта двух надежных параходов, 
-которые способны осуществлять перевозку различных видов грузов из Калининграда в Санк-Петербург.
+<p className="textCompany" ref={textRef}><span className="numberOne"> В 2022</span>  году Судоходная компания начала свою деятельность с фрахта двух надежных пароходов, 
+которые способны осуществлять перевозку различных видов грузов из Калининграда в Санкт-Петербург.
 Каждый из судов оборудован необходимой техникой, что позволяет гарантировать безопасность и своевременность доставки.
 </p>
 </div>
-
 </div>
-  
-            
 
-
-
-
-
-
-
-    
+             
     <ul className="Service-position">
     <li className="Service">Услуги</li>
     </ul>
@@ -70,16 +57,9 @@ function Company() {
       <li className="transport">Мы занимаемся транспортировкой коммерческих грузов по направлению</li>
       <li className="transportTwo">Калининград-Санкт-Петербург-Калининград</li>
     </ul>
-    
-
-
- 
-    
-      
-  
+         
 
 <div className="container-service">
-
 <ul className="container-block">
 <img className="ship-cruise"src={ship} alt="logo-kmp"/>
 <li className="General-top">
@@ -100,7 +80,6 @@ function Company() {
                              грузов, соблюдая все необходимые меры безопасности.  
 </li>
 </ul>
-
 <ul className="container-block">
 <img className="ship-cruise"src={shipTwo} alt="logo-kmp"/>
 <li className="General-top">Перевозка насыпных/навалочных грузов: </li>
@@ -109,11 +88,7 @@ function Company() {
 обеспечивая их надежную упаковку и транспортировку.  
 </li>
 </ul>
-
 </div>
-
-
-
 
        <div className="docsPosition">
        <p className="docs"> Документы для скачивания</p>
@@ -123,9 +98,7 @@ function Company() {
         <ContactCall/>
         <Footer />
     </div>
-
-    )
-  
+    ) 
 }
 
 export default Company;
